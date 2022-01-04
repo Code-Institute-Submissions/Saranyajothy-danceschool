@@ -1,11 +1,43 @@
+* {
+   margin: 0%;
+   padding: 0%;
+   border: none;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    color: black;
+
+} 
+
+/* header and logo */
+
+#logo {
+    margin-top: 80px;
+    margin-left: 30PX;
+    font-size: 300%;
+    color: black;
+} 
+
 /* navigation link */
 
 #menu {
-    font-size: 150%;
-    letter-spacing: 6px;
+    font-size: 130%;
+    letter-spacing: 6px;  
 }
 #menu li {
     float: right;
-    margin-right: 30px;
+    margin-right: 40px;
     list-style-type: none;
+    margin-top: auto;
+    color: black;
+}
+#menu a {
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: orange;
+    border-bottom: 1px solid aquamarine;
+    text-shadow: 2px aquamarine;
 }
