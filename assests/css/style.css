@@ -38,17 +38,16 @@ body {
 #menu a {
     text-decoration: none;
     color: rgb(0, 12, 12);
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 #menu li a:hover {
     color: orange;
-    border-bottom: 2px solid aquamarine;
-    
+    border-bottom: 2px solid rgb(13, 14, 13);   
 }
 
 .active {
-    border-bottom: 2px solid aquamarine;
+    border-bottom: 2px solid rgb(13, 14, 13);
     color: orange;
 }
 
@@ -60,15 +59,15 @@ body {
     background: url('../images/shiva\ .jpg') no-repeat center center; 
 }
 
-/* cover text and animation */
+/* cover text */
 
  #cover-text {
     font-size: 200%;
     font-family: cursive;
     letter-spacing: 6px;
     padding-left: 50px;
-    padding-top: 60px;
-    
+    padding-top: 80px;
+    color: rgb(59, 14, 141);
     width: 350px;
     height: 400px;
     background-color: rgba(199, 238, 240, 0.479);
@@ -77,4 +76,23 @@ body {
     
     position: absolute;
 
+    /* animation for cover text */
+
+    animation-name: cover-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;   
+}
+ 
+/* creates the level of zooming for the cover text */
+@keyframes cover-zoom {
+    from {
+       transform: scale(1);
+    }
+    to {
+       transform: scale(1.1);
+    }
+    back {
+        transform: scale(1);
+    }
 }
