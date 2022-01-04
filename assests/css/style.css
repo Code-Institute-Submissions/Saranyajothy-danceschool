@@ -1,0 +1,11 @@
+/* navigation link */
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 6px;
+}
+#menu li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+}
