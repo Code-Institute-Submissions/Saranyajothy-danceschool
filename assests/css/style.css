@@ -15,12 +15,23 @@ body {
 /* header and logo */
 
 #logo {
-    margin-top: 80px;
-    margin-left: 30PX;
-    font-size: 300%;
-    color: rgb(12, 11, 11);
-    border-bottom: none;
+    margin-top: 50px;
+    margin-left: 10PX;
+    font-size: 50px;
+    color: rgb(12, 11, 11);        
 } 
+
+#photos {
+
+    margin-left: 350px;
+} 
+#photos > img {
+    margin-right: 100px;
+    padding-left: 60px;
+    width: 50px;
+    height: 50px;
+    right: 90px;
+}
 
 /* navigation link */
 
@@ -43,11 +54,12 @@ body {
 
 #menu li a:hover {
     color: orange;
-    border-bottom: 2px solid rgb(13, 14, 13);   
+    border-bottom: 2px solid rgb(59, 14, 141);  
+    
 }
 
 .active {
-    border-bottom: 2px solid rgb(13, 14, 13);
+    border-bottom: 2px solid rgb(59, 14, 141);
     color: orange;
 }
 
@@ -64,16 +76,20 @@ body {
  #cover-text {
     font-size: 200%;
     font-family: cursive;
-    letter-spacing: 6px;
-    padding-left: 50px;
-    padding-top: 80px;
+    letter-spacing: 4px;
+
+    padding-inline-start: 40px;
+    padding-inline-end: 20px;
+    padding-top: 50px;
+
+    width: 380px;
+    height: 300px;
+
     color: rgb(59, 14, 141);
-    width: 350px;
-    height: 400px;
     background-color: rgba(199, 238, 240, 0.479);
-    bottom: 30px;
-    right: 70px;
-    
+    bottom: 40px;
+    right: 60px;
+
     position: absolute;
 
     /* animation for cover text */
