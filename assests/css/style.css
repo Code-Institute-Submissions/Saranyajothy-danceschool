@@ -15,15 +15,15 @@ body {
 /* header and logo */
 
 #logo {
-    margin-top: 50px;
-    margin-left: 10PX;
+    margin-top: 30px;
+    margin-right: 1100PX;
     font-size: 50px;
-    color: rgb(12, 11, 11);        
+    color: rgb(12, 11, 11); 
+    padding-top: 10px;
 } 
 
 #photos {
-
-    margin-left: 350px;
+    margin-left: 360px;
 } 
 #photos > img {
     margin-right: 100px;
@@ -32,7 +32,9 @@ body {
     height: 50px;
     right: 90px;
 }
-
+#logo, #photos {
+    line-height: 25px;
+}
 /* navigation link */
 
 #menu {
@@ -73,7 +75,7 @@ body {
 
 /* cover text */
 
- #cover-text {
+#cover-text {
     font-size: 200%;
     font-family: cursive;
     letter-spacing: 4px;
@@ -111,4 +113,26 @@ body {
     back {
         transform: scale(1);
     }
+}
+
+/* footer */
+
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
