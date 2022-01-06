@@ -1,143 +1,164 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
 * {
-   margin: 0%;
-   padding: 0%;
-   border: none;
-}
-body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 400;
-    color: black;
-
+    margin: 0%;
+    padding: 0%;
+    border: none;
+ }
+ body {
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: 400;
+     color: black;
+ 
+ } 
+ 
+ /* header and logo */
+ 
+ #logo {
+     margin-top: 30px;
+     margin-left: 30px;
+    float: left;
+     
 } 
-
-/* header and logo */
-
-#logo {
-    margin-top: 30px;
-    margin-right: 1100PX;
-    font-size: 50px;
-    color: rgb(12, 11, 11); 
-    padding-top: 10px;
-} 
-
-#photos {
-    margin-left: 360px;
-} 
-#photos > img {
-    margin-right: 100px;
-    padding-left: 60px;
-    width: 50px;
-    height: 50px;
-    right: 90px;
-}
-#logo, #photos {
-    line-height: 25px;
-}
-/* navigation link */
-
-#menu {
-    font-size: 130%;
-    letter-spacing: 4px; 
-    font-family: inria serif regular;
-}
-#menu li {
-    float: right;
-    margin-right: 60px;
-    list-style-type: none;
-    margin-top: 20px;
-    color: rgb(14, 13, 13);
-}
-#menu a {
-    text-decoration: none;
-   color: rgb(44, 7, 112);
-    margin-left: 40px;
-}
-
-#menu li a:hover {
-    color: orange;
-    background-color: rgb(66, 19, 153);
+#logo img {
+    width: 250px;
+    height: 100px;
 }
  
-#menu .active {
-    color: orange;
-}
+header > div {
+    margin-left: 580px;
+} 
 
-/* shiva image */
 
-#shiva {
-    height: 1100px;
-    width: 110%;
-    background: url('../images/shiva\ .jpg') no-repeat center center; 
-}
-
-/* cover text */
-
-#cover-text {
-    font-size: 200%;
-    font-family: cursive;
-    letter-spacing: 4px;
-
-    padding-inline-start: 40px;
-    padding-inline-end: 20px;
-    padding-top: 50px;
-
-    width: 380px;
-    height: 300px;
-
-    color: rgb(59, 14, 141);
-    background-color: rgba(199, 238, 240, 0.479);
-    bottom: 40px;
-    right: 60px;
-
-    position: absolute;
+ #photos img {
+     margin-top: 30px;
+     margin-left:  30px;
+     padding-left: 60px;
+     padding-right: 60px;
+     width: 50px;
+     height: 50px;
+     right: 90px;
+ }
+ #logo, #photos {
+     line-height: 20px;
+     
+ }
+ /* navigation link */
+ 
+ #menu {
+     font-size: 130%;
+    letter-spacing: 3px;
+     font-family: inria serif regular;
+ }
+ #menu li {
+     float: right;
+     margin-right: 60px;
+     padding-right: 20px;
+     padding-left: 20px;
+     list-style-type: none;
+     margin-top: 20px;
+     color: rgb(14, 13, 13);
+ }
+ #menu a {
+     text-decoration: none;
+    color: rgb(44, 7, 112);
+    
+ }
+ 
+ #menu li a:hover {
+     color: orange;
+     background-color: rgb(66, 19, 153);
+ }
+  
+ #menu .active {
+     color: orange;
+ }
+ 
+ /* shiva image */
+ 
+ #shiva {
+     height: 1100px;
+     width: 110%;
+     background: url('../images/shiva\ .jpg') no-repeat center center; 
+ }
+ 
+ /* cover text */
+ 
+ #cover-text {
+     font-size: 200%;
+     font-family: cursive;
+     letter-spacing: 4px;
+     
+ 
+     width: 360px;
+     height: 360px;
+ 
+     color: rgb(59, 14, 141);
+     background-color: rgb(199, 238, 240, 0.479);
+     bottom: 130px;
+     right: 60px;
+ 
+     position: absolute;
 
     /* animation for cover text */
-
+ 
     animation-name: cover-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;   
+    animation-iteration-count: infinite; 
 }
  
-/* creates the level of zooming for the cover text */
-@keyframes cover-zoom {
-    from {
-       transform: scale(1);
-    }
-    to {
-       transform: scale(1.1);
-    }
-    back {
+#text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 40px;
+}
+    
+  
+ /* creates the level of zooming for the cover text */
+ @keyframes cover-zoom {
+     from {
         transform: scale(1);
-    }
-}
-
-/* footer social links */
-
-
-footer {
-    height: 150px;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-}
-/* About us */
-
+     }
+     to {
+        transform: scale(1.1);
+     }
+     back {
+         transform: scale(1);
+     }
+ }
+ 
+ /* footer social links */
+ 
+ 
+ footer {
+     height: 150px;
+ }
+ 
+ .social-networks {
+     text-align: center;
+ }
+ 
+ .social-networks > li {
+     display: inline;
+ }
+ 
+ .social-networks i {
+     font-size: 160%;
+     margin: 1%;
+     padding: 5%;
+     color: #3a3a3a;
+ }
+ /* About us */
+ 
+ 
 #about > img{
-    margin-top: 20px;
-    width: 100%;
-}
+     margin-top: 20px;
+     width: 100%;
+ }
+ 
+ h2 {
+   padding-left: 150px;
+   padding-top: 20px;
+ 
+ }
+ 
