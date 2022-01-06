@@ -39,7 +39,8 @@ body {
 
 #menu {
     font-size: 130%;
-    letter-spacing: 6px;  
+    letter-spacing: 4px; 
+    font-family: inria serif regular;
 }
 #menu li {
     float: right;
@@ -50,18 +51,16 @@ body {
 }
 #menu a {
     text-decoration: none;
-    color: rgb(0, 12, 12);
+   color: rgb(44, 7, 112);
     margin-left: 40px;
 }
 
 #menu li a:hover {
     color: orange;
-    border-bottom: 2px solid rgb(59, 14, 141);  
-    
+    background-color: rgb(66, 19, 153);
 }
-
-.active {
-    border-bottom: 2px solid rgb(59, 14, 141);
+ 
+#menu .active {
     color: orange;
 }
 
@@ -115,7 +114,7 @@ body {
     }
 }
 
-/* footer */
+/* footer social links */
 
 
 footer {
@@ -135,4 +134,10 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+/* About us */
+
+#about > img{
+    margin-top: 20px;
+    width: 100%;
 }
