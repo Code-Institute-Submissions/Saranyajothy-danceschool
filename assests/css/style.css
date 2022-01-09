@@ -4,17 +4,17 @@
     border: none;
  }
  body {
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     font-weight: 400;
-     color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(255, 254, 254);
+    background-color: #000000;
  
  } 
  
  /* header and logo */
  
  #logo {
-     margin-top: 30px;
-     margin-left: 30px;
+    margin-left: 30px;
     float: left;
      
 } 
@@ -22,81 +22,69 @@
     width: 250px;
     height: 100px;
 }
- 
-header > div {
-    margin-left: 580px;
-} 
 
-
- #photos img {
-     margin-top: 30px;
-     margin-left:  30px;
-     padding-left: 60px;
-     padding-right: 60px;
-     width: 50px;
-     height: 50px;
-     right: 90px;
- }
- #logo, #photos {
-     line-height: 20px;
+header {
+    line-height: 30px;
      
- }
+}
  /* navigation link */
  
- #menu {
-     font-size: 130%;
+#menu {
+    font-size: 130%;
     letter-spacing: 3px;
-     font-family: inria serif regular;
- }
- #menu li {
-     float: right;
-     margin-right: 60px;
-     padding-right: 20px;
-     padding-left: 20px;
-     list-style-type: none;
-     margin-top: 20px;
-     color: rgb(14, 13, 13);
- }
- #menu a {
-     text-decoration: none;
-    color: rgb(44, 7, 112);
+    font-family: inria serif regular;
+}
+#menu li {
+    float: right;
+    margin-right: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+    list-style-type: none;
+    margin-top: 40px;
     
- }
+}
+#menu a {
+    text-decoration: none;
+    color: white;
+    
+}
  
- #menu li a:hover {
-     color: orange;
-     background-color: rgb(66, 19, 153);
- }
+#menu li a:hover {
+    color: black;
+    background-color: rgb(153, 207, 83);
+}
   
- #menu .active {
-     color: orange;
- }
+#menu .active {
+    color: orange;
+}
  
  /* shiva image */
  
- #shiva {
-     height: 1100px;
-     width: 110%;
-     background: url('../images/shiva\ .jpg') no-repeat center center; 
- }
+#shiva  img {
+    width: 100%;
+   
+}
+    
+
  
  /* cover text */
  
- #cover-text {
-     font-size: 200%;
-     font-family: cursive;
-     letter-spacing: 4px;
+#cover-text {
+    font-size: 125%;
+    font-family: cursive;
+    letter-spacing: 4px;
      
  
-     width: 360px;
-     height: 360px;
+    width: 260px;
+    height: 260px;
+
+    background-color: rgba(248, 252, 246, 0.925);;
+    bottom: 100px;
+    right: 80px;
  
-     color: rgb(59, 14, 141);
-     background-color: rgb(199, 238, 240, 0.479);
-     bottom: 130px;
-     right: 60px;
- 
-     position: absolute;
+    position: absolute;
+     
+   
 
     /* animation for cover text */
  
@@ -107,58 +95,97 @@ header > div {
 }
  
 #text {
-    padding-top: 30px;
+    /* padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 30px;
-    padding-left: 40px;
+    padding-left: 40px;  */
+    color: rgb(2, 68, 8);
+    padding: 30px 10px 10px 40px;
 }
-    
-  
- /* creates the level of zooming for the cover text */
- @keyframes cover-zoom {
-     from {
+
+/* creates the level of zooming for the cover text */
+@keyframes cover-zoom {
+    from {
         transform: scale(1);
-     }
-     to {
+    }
+    to {
         transform: scale(1.1);
-     }
-     back {
-         transform: scale(1);
-     }
- }
+    }
+    back {
+        transform: scale(1);
+    }
+}
+/* add background image and content of the school in section */
+
+#salangai-image {
+    background-image: url('../images/small\ borgder.jpg');
+    background-size: 100%;
+}
+
+#school p {
+    text-align: center;
+    padding: 10px 100px 10px 100px;
+    background-color: rgb(39, 39, 38);
+    width: 60%;  
+    margin-left: 13%; 
+    font-size: 25px;
+    
+   
+}
+#school h2 {
+  text-align: center;
+  font-size: 60px;
+}
+
+/* footer social links */
  
- /* footer social links */
  
+footer {
+    height: 150px;
+}
  
- footer {
-     height: 150px;
- }
+.social-networks {
+    text-align: center;
+}
  
- .social-networks {
-     text-align: center;
- }
+.social-networks > li {
+    display: inline;
+}
  
- .social-networks > li {
-     display: inline;
- }
- 
- .social-networks i {
-     font-size: 160%;
-     margin: 1%;
-     padding: 5%;
-     color: #3a3a3a;
- }
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+#border {
+    background-color: orange;
+   
+}
  /* About us */
  
+#about img{
+    width: 100%;
+}
  
-#about > img{
-     margin-top: 20px;
-     width: 100%;
- }
- 
- h2 {
-   padding-left: 150px;
+h2 {
+   padding-left: 100px;
+   padding-right: 100px;
    padding-top: 20px;
- 
+   color: orange;
+
+}
+p {
+    color: white;
+    
+    padding-top: 20px;
+    margin-top: 20px;
+}
+ #about-content {
+    background-image: url('../images/HD+BG.jpeg');
  }
- 
+
+
+   
+   
