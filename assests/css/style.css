@@ -12,8 +12,10 @@
  } 
  
  /* header and logo */
- 
- #logo {
+
+
+
+#logo {
     margin-left: 30px;
     float: left;
      
@@ -25,7 +27,7 @@
 
 header {
     line-height: 30px;
-     
+   
 }
  /* navigation link */
  
@@ -79,8 +81,8 @@ header {
     height: 260px;
 
     background-color: rgba(248, 252, 246, 0.925);;
-    bottom: 100px;
-    right: 80px;
+    bottom: 110px;
+    right: 100px;
  
     position: absolute;
      
@@ -117,7 +119,7 @@ header {
 }
 /* add background image and content of the school in section */
 
-#salangai-image {
+#school {
     background-image: url('../images/small\ borgder.jpg');
     background-size: 100%;
 }
@@ -141,11 +143,12 @@ header {
  
  
 footer {
-    height: 150px;
+    height: 100px;
 }
  
 .social-networks {
     text-align: center;
+    
 }
  
 .social-networks > li {
@@ -156,7 +159,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: white
 }
 
 #border {
@@ -164,11 +167,19 @@ footer {
    
 }
  /* About us */
- 
+
 #about img{
-    width: 100%;
+    width: 100%; 
 }
- 
+
+#line {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 10px;
+    top: 100px;
+    position: absolute;
+}
+
 h2 {
    padding-left: 100px;
    padding-right: 100px;
@@ -178,14 +189,37 @@ h2 {
 }
 p {
     color: white;
-    
     padding-top: 20px;
     margin-top: 20px;
 }
- #about-content {
+#about-content {
     background-image: url('../images/HD+BG.jpeg');
- }
+}
 
+#about-content h2 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
 
-   
+#pro-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 43%;
+    margin-top: 20px;
+}
+
+#about-content p {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+    font-size: 30px;
+}   
+ 
+#color {
+    background-color: rgb(19, 68, 59);
+}
+
    
