@@ -8,9 +8,10 @@
     font-weight: 400;
     color: rgb(255, 254, 254);
     background-color: #000000;
- 
- } 
- 
+} 
+h1 h2 {
+    font-family: 'Playfair Display', serif;
+}
  /* header and logo */
 
 
@@ -38,9 +39,9 @@ header {
 }
 #menu li {
     float: right;
-    margin-right: 60px;
-    padding-right: 20px;
-    padding-left: 20px;
+    margin: 0 30px 0 30px;
+    
+    
     list-style-type: none;
     margin-top: 40px;
     
@@ -64,7 +65,6 @@ header {
  
 #shiva  img {
     width: 100%;
-   
 }
     
 
@@ -72,23 +72,23 @@ header {
  /* cover text */
  
 #cover-text {
-    font-size: 125%;
+    font-size: 250%;
     font-family: cursive;
     letter-spacing: 4px;
      
  
-    width: 260px;
+    width: 350px;
     height: 260px;
 
-    background-color: rgba(248, 252, 246, 0.925);;
-    bottom: 110px;
-    right: 100px;
+  /*  background-color: rgba(248, 252, 246, 0.925); */
+    bottom: 330px;
+    right: 100px; 
  
     position: absolute;
      
    
 
-    /* animation for cover text */
+ /* animation for cover text */
  
     animation-name: cover-zoom;
     animation-duration: 5s;
@@ -101,7 +101,7 @@ header {
     padding-bottom: 30px;
     padding-right: 30px;
     padding-left: 40px;  */
-    color: rgb(2, 68, 8);
+    color: orange;
     padding: 30px 10px 10px 40px;
 }
 
@@ -111,7 +111,7 @@ header {
         transform: scale(1);
     }
     to {
-        transform: scale(1.1);
+        transform: scale(1.3);
     }
     back {
         transform: scale(1);
@@ -125,25 +125,57 @@ header {
 }
 
 #school p {
-    text-align: center;
-    padding: 10px 100px 10px 100px;
+    text-align: justify;
+    padding: 20px 30px 20px 30px;
     background-color: rgb(39, 39, 38);
-    width: 60%;  
-    margin-left: 13%; 
+     
+    margin: 30px 120px 0 120px;
     font-size: 25px;
-    
-   
+    font-family: Playfair Display, serif;
+    color: whitesmoke;
 }
+
 #school h2 {
   text-align: center;
   font-size: 60px;
+  color: orange;
 }
+ /* gallery */
+ 
+#gallery {
+    background-image: url('../images/small\ borgder.jpg');
+    background-size: 100%;
+}
+
+
+#gallery h2 {
+    text-align: center;
+    font-size: 50px;
+    color: orange;
+    padding: 30px 0 30px 0;
+}
+
+#photos  {
+    clear: both;
+    line-height: 80%;
+    column-count: 3;
+    column-gap: 0;
+    margin: 0 120px 10px 120px;
+}
+#photos > img {
+    width: 100%;
+}
+#photos :hover {
+    transform: scale(1.2);
+}
+
+
 
 /* footer social links */
  
  
 footer {
-    height: 100px;
+    height: 100%;
 }
  
 .social-networks {
@@ -151,12 +183,13 @@ footer {
     
 }
  
-.social-networks > li {
+.social-networks 
+li {
     display: inline;
 }
  
 .social-networks i {
-    font-size: 160%;
+    font-size: 200%;
     margin: 1%;
     padding: 5%;
     color: white
@@ -164,7 +197,7 @@ footer {
 
 #border {
     background-color: orange;
-   
+     
 }
  /* About us */
 
@@ -184,7 +217,7 @@ h2 {
    padding-left: 100px;
    padding-right: 100px;
    padding-top: 20px;
-   color: orange;
+   color: white;
 
 }
 p {
@@ -197,17 +230,17 @@ p {
 }
 
 #about-content h2 {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 30px;
 }
 
 #pro-pic img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
-    margin-left: 43%;
+    margin-left: 41%;
     margin-top: 20px;
 }
 
@@ -215,11 +248,345 @@ p {
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 5%;
-    font-size: 30px;
+    font-size: 25px;
+    font-family: Playfair Display, serif;
 }   
- 
+ /* footer color */
 #color {
     background-color: rgb(19, 68, 59);
 }
 
+/* contact page */
+
+#contact-image img {
+    margin-right: 50%;
+    margin-left: 50px;
+    width: 50%;
+    height: 30%;
+}
+
+#form {
+    bottom: 70px;
+    right: 100px;
+    width: 30%;
+    position: absolute;
    
+}
+
+
+.text-input {
+    background: transparent;
+    color: black;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid orange;
+    border-radius: 2px;
+}
+
+.join-button{
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    font-size: 100%;
+    Background-color: orange;
+    text-align: center;
+    color: #fafafa;
+    
+}
+ 
+.join-button input:hover {
+    Background-color: #fafafa;
+    color: orange;
+}
+#form h2 {
+    background-color: gray; 
+    border-radius: 2px;
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 20px 10px 20px 10px;
+    color: orange;
+ }
+
+#message {
+    height: 80px;
+}
+ 
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down home page */
+@media screen and (max-width: 1200px) {
+    #cover-text {
+        width: 250px;
+        height: 150px;
+        font-size: 180%;
+        bottom: 480px;
+        right: 80px;
+    }
+    #school p {
+        
+        text-align: justify;
+    }
+    /* about us */ 
+
+    #pro-pic img {
+        margin-left: 36%;
+    }
+     
+    #about-content p {
+        font-size: 20px;
+    }
+    /* contact */
+    .text-input {
+        width: 100%;
+        height: 20px;
+        margin: 5px 0 10px 0;
+    }
+
+    #form {
+        bottom: 30%;
+        right: 70px;
+    }
+
+    #form h2 {
+        padding: 10px 10px 10px 10px;
+        font-size: 20px;
+    }
+    #contact-image img {
+        height: 100%;
+        margin-bottom: 50px;
+    }
+
+    #message {
+        height: 40px;
+    }
+    .join-button {
+        margin-top: 10px;
+        padding: 10px 12px 10px 12px;
+        font-size: 100%;
+    }
+}
+
+/* for medium screen from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin: 0 0 0 20px;
+        font-size: small;
+        letter-spacing: 2px;
+    }
+
+    #menu li {
+        padding-right: 2px;
+        padding-left: 2px;
+        list-style-type: none;
+        margin-top: 10px;
+        
+    }
+    #cover-text {
+        width: 180px;
+        height: 60px;
+        font-size: 100%;
+        bottom: 550px;
+        right: 50px;
+        
+    }
+    #school h2 {
+        text-align: center;
+        font-size: 30px;       
+    }
+
+    #school p {
+        text-align: justify;
+        padding: 10px 10px 10px 10px;
+        background-color: rgb(39, 39, 38);
+        width: 70%;  
+        margin-left: 14%; 
+        font-size: medium;
+    }
+
+    #gallery h2 {
+        text-align: center;
+        font-size: 30px;
+        color: orange;
+        padding: 20px 0 20px 0;
+    }
+    
+    #photos  {
+        clear: both;
+        column-count: 3;
+        column-gap: 0;
+        margin: 0 80px 7px 80px;
+    }
+    /* about us */
+
+    #line {
+        display: none;
+    }
+ 
+    #about li {
+        margin-top: 10px;
+    }
+
+    #about-content h2 {
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    #pro-pic img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        display: center;
+    }
+    
+    #about-content p {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 5%;
+        font-size: 15px;
+    } 
+    
+    /* contact */
+
+    #form {
+        bottom: 29%;
+    }
+    
+    .text-input {
+        height: 40%;
+    }
+    #contact-image img {
+        margin-left: 20px;
+        width: 50%;
+        margin-bottom: 100px;
+        margin-top: 15px;
+        
+    }
+
+}
+
+/* for small screen size from 650px wide and down */
+@media screen and (max-width: 650px) {
+    #cover-text {
+        width: 180px;
+        height: 40px;
+        font-size: 60%;
+        right: 15px;
+        bottom: 350px;
+    }
+    
+    .nav li {
+        margin-left: 15px;
+        
+    }
+    #logo {
+        margin-left: 75px;
+    }
+
+    #school h2 {
+        text-align: center;
+        font-size: 30px;       
+    }
+    #school p {
+        margin-left: 50px;
+       
+    }
+    
+    #photos  {
+        clear: both;
+        column-count: 1;
+        column-gap: 0;
+        margin: 0 80px 7px 80px;
+    }
+    
+    /* about us */
+
+    #pro-pic img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        margin-left: 120px;
+    }
+
+    #about-content h2 {
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    /* contact */
+    #form {
+        bottom: 18%;
+        margin-right: 25%;
+    }
+    
+    #contact-image img {
+        margin-left: 35px;
+        width: 85%;
+        margin-bottom: 100px;
+        margin-top: 15px;
+        
+    }
+    #form h2 {
+       
+        border-radius: 2px;
+        text-align: center;
+        margin: 0 0 10px 0;
+        padding: 10px 5px 10px 5px ;
+        color: orange;
+     }
+      
+     #form  {
+        width: 50%;
+        bottom: 26%;
+        right: 20px;
+     }
+}
+/* for small screen size from 520px wide and down */
+@media screen and (max-width: 520px) {
+    
+    #form h2 {
+       font-size: 18px;
+        border-radius: 2px;
+        text-align: center;
+        margin: 0 0 10px 0;
+        padding: 5px 3px 5px 3px ;
+        color: orange;
+     }
+     #form  {
+        width: 50%;
+        bottom: 14%;
+        right: 20px;
+        
+
+    } 
+    
+    .join-button {
+        margin-top: 5px;
+        padding: 3px 6px 3px 6px;
+        font-size: 100%;
+    }
+
+    #contact-image img {
+        margin-left: 3px;
+        margin-right: 10px;
+        width: 100%;
+        margin-bottom: 150px;
+        margin-top: 15px;
+        height: 200%;
+    }
+     
+    .nav li {
+        margin-left: 1px;
+    }
+}
+
+
+
+
