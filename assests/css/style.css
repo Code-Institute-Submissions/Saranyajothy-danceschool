@@ -39,9 +39,9 @@ header {
 }
 #menu li {
     float: right;
-    margin: 0 30px 0 30px;
+    margin: 40px 30px 0 30px;
     list-style-type: none;
-    margin-top: 40px;
+
     
 }
 #menu a {
@@ -127,7 +127,7 @@ header {
     padding: 20px 30px 20px 30px;
     background-color: rgb(39, 39, 38);
      
-    margin: 30px 120px 0 120px;
+    margin: 0 120px 0 120px;
     font-size: 25px;
     font-family: Playfair Display, serif;
     color: whitesmoke;
@@ -315,16 +315,16 @@ p {
 /* For larger to medium screens size from 1200px wide and down home page */
 @media screen and (max-width: 1200px) {
     #cover-text {
-        width: 250px;
+        width: 280px;
         height: 150px;
         font-size: 180%;
         bottom: 480px;
-        right: 80px;
+        right: 60px;
     }
     #school p {
-        
         text-align: justify;
     }
+
     /* about us */ 
 
     #pro-pic img {
@@ -368,46 +368,36 @@ p {
 /* for medium screen from 950px wide and down */
 
 @media screen and (max-width: 950px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin: 0 0 0 20px;
-        font-size: small;
-        letter-spacing: 2px;
-    }
 
     #menu li {
-        padding-right: 2px;
-        padding-left: 2px;
-        list-style-type: none;
-        margin-top: 10px;
+        margin: 40px 20px 0 20px;
         
     }
     #cover-text {
-        width: 180px;
+      /*  width: 180px;
         height: 60px;
         font-size: 100%;
         bottom: 550px;
+        right: 50px; */
+        width: 230px;
+        height: 100px;
+        font-size: 120%;
+        bottom: 520px;
         right: 50px;
-        
     }
     #school h2 {
         text-align: center;
-        font-size: 30px;       
+        font-size: 40px; 
+              
     }
 
     #school p {
         text-align: justify;
-        padding: 10px 10px 10px 10px;
-        background-color: rgb(39, 39, 38);
-        width: 70%;  
-        margin-left: 14%; 
-        font-size: medium;
+        margin: 0 80px 0 80px;
     }
-
     #gallery h2 {
         text-align: center;
-        font-size: 30px;
+        font-size: 40px;
         color: orange;
         padding: 20px 0 20px 0;
     }
@@ -468,22 +458,32 @@ p {
 
 }
 
-/* for small screen size from 650px wide and down */
-@media screen and (max-width: 650px) {
+/* for small screen size from 770px wide and down */
+@media screen and (max-width: 770px) {
+    
+    
     #cover-text {
-        width: 180px;
-        height: 40px;
-        font-size: 60%;
-        right: 15px;
-        bottom: 350px;
+        width: 200px;
+        font-size: 100%;
+        right: 30pxpx;
+        bottom: 280px;
     }
     
-    .nav li {
-        margin-left: 15px;
-        
+    #menu  {
+        float: left;
+        clear: left;
     }
+    
+    #menu li {
+        margin: 10px 10px 10px 10px;
+        font-size: 20px;
+    }
+
     #logo {
-        margin-left: 75px;
+        margin: 10px 0 0 10px; 
+    }
+    #text {
+        padding: 10px;
     }
 
     #school h2 {
@@ -582,9 +582,17 @@ p {
      
     .nav li {
         margin-left: 1px;
+    
     }
 }
 
-
+/* for small screen size from 390px wide and down */
+@media screen and (max-width: 390px) {
+  
+    #menu li {
+        margin: 0 10px 0 10px;
+        margin
+    }
+}
 
 
