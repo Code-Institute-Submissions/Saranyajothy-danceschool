@@ -211,14 +211,12 @@ li {
     position: absolute;
 }
 
-h2 {
-   padding-left: 100px;
-   padding-right: 100px;
-   padding-top: 20px;
-   color: white;
+#school h2 {
+   padding: 20px 100px 20px 100px;
+   color: orange;
 
 }
-p {
+#school p {
     color: white;
     padding-top: 20px;
     margin-top: 20px;
@@ -464,9 +462,9 @@ p {
     
     #cover-text {
         width: 200px;
-        font-size: 100%;
-        right: 30pxpx;
-        bottom: 280px;
+        font-size: 110%;
+        right:40px;
+        bottom: 400px;
     }
     
     #menu  {
@@ -488,12 +486,15 @@ p {
 
     #school h2 {
         text-align: center;
-        font-size: 30px;       
+        font-size: 35px; 
     }
+
     #school p {
-        margin-left: 50px;
-       
+        font-size: 22px;
+        margin: 0 60px 0 60px;
+        padding: 5px 8px 5px 8px;
     }
+    
     
     #photos  {
         clear: both;
@@ -546,9 +547,44 @@ p {
         right: 20px;
      }
 }
-/* for small screen size from 520px wide and down */
-@media screen and (max-width: 520px) {
+/* for small screen size from 550px wide and down */
+@media screen and (max-width: 550px) {
     
+    /* homepage */
+    #cover-text {
+        width: 150px;
+        font-size: 60%;
+        right: 20px;
+        bottom: 430px;
+    }
+    
+    #menu li {
+        margin: 10px 10px 10px 10px;
+        font-size: 15px;
+    }
+
+    #logo {
+        margin: 5px 0 0 5px; 
+    }
+
+    #school h2 {
+        text-align: center;
+        font-size: 25px; 
+    }
+
+    #school p {
+        font-size: 15px;
+        margin: 0 50px 0 50px;
+        padding: 5px 8px 5px 8px;
+    }
+    #gallery h2 {
+        font-size: 25px;
+    }
+    
+    #photos  {
+
+        margin: 0 60px 7px 60px;
+    }
     #form h2 {
        font-size: 18px;
         border-radius: 2px;
@@ -588,10 +624,41 @@ p {
 
 /* for small screen size from 390px wide and down */
 @media screen and (max-width: 390px) {
+  /* homepage */
   
+    #cover-text {
+        width: 130px;
+        font-size: 40%;
+        right: 10px;
+        bottom: 420px;
+    }
+    
     #menu li {
-        margin: 0 10px 0 10px;
-        margin
+        margin: 8px;
+        font-size: 12px;
+    }
+
+    #logo {
+        margin: 5px 0 0 25px; 
+    }
+
+    #school h2 {
+        text-align: center;
+        font-size: 25px; 
+    }
+
+    #school p {
+        font-size: 15px;
+        margin: 0 50px 0 50px;
+        padding: 5px 8px 5px 8px;
+    }
+    #gallery h2 {
+        font-size: 25px;
+    }
+    
+    #photos  {
+
+        margin: 0 60px 7px 60px;
     }
 }
 
