@@ -131,17 +131,18 @@ header {
   color: orange;
 }
 /* classes */
-.class-content {
-    background-color: rgb(39, 39, 38);
-}
+
 .table-content {
-    border-collapse: collapse;
+  /*  border-collapse: collapse;
     margin: 25px 0;
     font-size: 20px;
     min-width: 400px;
     border-radius: 5px 5px 00;
     overflow: hidden;
-    box-shadow: 0020px rgba(0, 0, 0, 0.15);
+    box-shadow: 0020px rgba(0, 0, 0, 0.15); */
+    padding: 20px 30px 20px 30px;
+    background-color: rgb(39, 39, 38);
+    margin: 0 120px 0 120px;
 }
 
 .table-content thead tr {
