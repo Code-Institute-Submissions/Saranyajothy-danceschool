@@ -69,14 +69,14 @@ header {
  /* cover text */
  
 #cover-text {
-    font-size: 250%;
+    font-size: 30px;
     font-family: cursive;
     letter-spacing: 4px;
     width: 350px;
     height: 260px;
 
   /*  background-color: rgba(248, 252, 246, 0.925); */
-    bottom: 300px;
+    bottom: 200px;
     right: 100px; 
     position: absolute;
      
@@ -118,19 +118,54 @@ header {
     text-align: justify;
     padding: 20px 30px 20px 30px;
     background-color: rgb(39, 39, 38);
-     
     margin: 0 120px 0 120px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Playfair Display', serif;
     color: whitesmoke;
 }
+ 
 
 #school h2 {
   text-align: center;
   font-size: 40px;
   color: orange;
 }
- /* gallery */
+/* classes */
+.table-content {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 20px;
+    min-width: 400px;
+    border-radius: 5px 5px 00;
+    overflow: hidden;
+    box-shadow: 0020px rgba(0, 0, 0, 0.15);
+}
+
+.table-content thead tr {
+    background-color: gray 0.5;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.table-content  th,
+.table-content td {
+    padding: 12px 15px;
+}
+
+.table-content  tbody tr {
+border-bottom: 1px solid #dddddd;
+}
+.table-content tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.table-content tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+
+
+/* gallery */
  
 #gallery {
     background-image: url('../images/small\ borgder.jpg');
