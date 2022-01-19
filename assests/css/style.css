@@ -34,7 +34,7 @@ header {
 #menu {
     font-size: 130%;
     letter-spacing: 3px;
-    font-family: inria serif regular;
+    font-family: 'inria serif', regular;
 }
 #menu li {
     float: right;
@@ -72,20 +72,15 @@ header {
     font-size: 250%;
     font-family: cursive;
     letter-spacing: 4px;
-     
- 
     width: 350px;
     height: 260px;
 
   /*  background-color: rgba(248, 252, 246, 0.925); */
-    bottom: 330px;
+    bottom: 300px;
     right: 100px; 
- 
     position: absolute;
      
-   
-
- /* animation for cover text */
+    /* animation for cover text */
  
     animation-name: cover-zoom;
     animation-duration: 5s;
@@ -110,9 +105,7 @@ header {
     to {
         transform: scale(1.2);
     }
-    back {
-        transform: scale(1);
-    }
+    
 }
 /* add background image and content of the school in section */
 
@@ -128,7 +121,7 @@ header {
      
     margin: 0 120px 0 120px;
     font-size: 25px;
-    font-family: Playfair Display, serif;
+    font-family: 'Playfair Display', serif;
     color: whitesmoke;
 }
 
@@ -248,7 +241,7 @@ li {
     
     padding: 80px 60px 120px 40px;
     font-size: 22px;
-    font-family: Playfair Display, serif;
+    font-family: 'Playfair Display', serif;
     text-align: justify;
     
 }   
