@@ -235,8 +235,8 @@ li {
 }
 
 #pro-pic img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     clear: both;
     float: left;
@@ -246,10 +246,11 @@ li {
 
 #about-content p {
     
-    padding: 50px 60px 120px 40px;
+    padding: 100px 60px 120px 40px;
     font-size: 20px;
     font-family: Playfair Display, serif;
     text-align: justify;
+    
 }   
 
 
