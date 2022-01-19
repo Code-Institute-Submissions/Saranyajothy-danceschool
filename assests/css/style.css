@@ -135,15 +135,16 @@ header {
 .table-content {
   
     padding: 20px 30px 20px 30px;
-    background-color: rgb(39, 39, 38);
-    margin: 0 120px 0 120px;
+    background-color: orange ;
+    
+    margin: 20px 200px 20px 200px;
 }
 
-.table-content thead tr {
-    background-color: gray 0.5;
-    color: whitesmoke;
+.table-content thead tr 
+ {
+    color: black;
     text-align: center;
-    align-items: center;
+    font-size: 20px;
 }
 .class-heading h2 {
     text-align: center;
@@ -153,25 +154,32 @@ header {
 }
 
 .class-p {
-    margin: 0 140px 0 140px;
+    margin: 20px 140px 20px 140px;
     text-align: justify;
     font-size: 20px;
 }
+.class-image {
+    background-image: url('../images/small\ borgder.jpg');
+    background-size: 100%;
+}
+
 .table-content  th,
 .table-content td {
     padding: 12px 15px;
 }
 
-.table-content  tbody tr {
-border-bottom: 1px solid #dddddd;
-}
-.table-content tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
+hr {
+    color: black;
+    border: none;
+    border-top: 1px solid;
 }
 
-.table-content tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
+
+.table-content tbody tr{
+    border-bottom: 2px solid orange;
 }
+
+
 
 
 
