@@ -131,6 +131,9 @@ header {
   color: orange;
 }
 /* classes */
+.class-content {
+    background-color: rgb(39, 39, 38);
+}
 .table-content {
     border-collapse: collapse;
     margin: 25px 0;
