@@ -133,13 +133,7 @@ header {
 /* classes */
 
 .table-content {
-  /*  border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 20px;
-    min-width: 400px;
-    border-radius: 5px 5px 00;
-    overflow: hidden;
-    box-shadow: 0020px rgba(0, 0, 0, 0.15); */
+  
     padding: 20px 30px 20px 30px;
     background-color: rgb(39, 39, 38);
     margin: 0 120px 0 120px;
@@ -149,8 +143,14 @@ header {
     background-color: gray 0.5;
     color: whitesmoke;
     text-align: center;
+    align-items: center;
 }
-
+.class-heading h2 {
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+    padding: 30px 0 30px 0;
+}
 .table-content  th,
 .table-content td {
     padding: 12px 15px;
