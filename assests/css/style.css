@@ -373,6 +373,7 @@ li {
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
+/* homepage */
 @media screen and (max-width: 1200px) {
     #cover-text {
         font-size: 25px;
@@ -383,4 +384,17 @@ li {
         bottom: 250px;
         right: 60px; 
         position: absolute;
+    }
+
+    .table-content {
+  
+        padding: 20px 30px 20px 30px;
+        background-color: orange ;
+        border-radius: 5px;
+        margin: 20px 250px 0 250px;
+        height: 50px;
+        position: relative;
+
+       
+    }
 }
