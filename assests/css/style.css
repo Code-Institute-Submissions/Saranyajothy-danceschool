@@ -172,13 +172,6 @@ header {
     color: #fafafa;
 }
 
-
-
-
-
-
-
-
 /* gallery */
  
 #gallery {
@@ -314,7 +307,8 @@ li {
     bottom: 10px;
     left: 200px;
     width: 30%;
-    position: fixed;
+    position: absolute;
+    float: left;
    
 }
 
@@ -357,3 +351,26 @@ li {
     height: 80px;
 }
  
+.enquiry {
+    bottom: 200px;
+    right: 60px;
+    width: 18%;
+    position: absolute;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 20px 120px 20px 120px;
+  
+    
+}
+
+.enquiry {
+    
+    font-weight: lig;
+}
+.enquiry h3 {
+    color: orange;
+    border: 1px solid #fafafa;
+    
+
+    
+}
