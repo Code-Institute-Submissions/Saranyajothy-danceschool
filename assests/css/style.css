@@ -187,9 +187,9 @@ header {
 
 #photos  {
     clear: both;
-    line-height: 80%;
+    line-height: 60%;
     column-count: 3;
-    column-gap: 0;
+    column-gap: 3px;
     margin: 0 120px 0 120px;
 }
 #photos > img {
