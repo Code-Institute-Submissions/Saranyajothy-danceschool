@@ -137,7 +137,7 @@ header {
     background-color: orange ;
     border-radius: 5px;
     width: 70%;
-    margin: 20px 250px 0 210px;
+    margin: 20px 250px 0 220px;
     position: relative;
     align-self: center;
    
@@ -170,6 +170,10 @@ header {
 
 .table-content tr {
     color: #fafafa;
+}
+.color .fc {
+    color: white;
+    font-size: 20px;
 }
 
 /* gallery */
