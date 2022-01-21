@@ -502,30 +502,23 @@ li {
         right: 5px; 
         position: absolute;
     }
-    
-    #menu {
-        float: left;
-        clear: left;
-        margin-right: 25px;
-    }
     #logo {
         margin: 10px 0 0 10px;
         width: 30px;
     }
-
     .class-p {
         margin: 0 100px 10px 100px;
         text-align: justify;
         font-size: 18px;
     }
-    #photos #school p{
-        margin: 0 80px 0 80px;
+    #photos #school p {
+        margin: 0 50px 0 50px;
     }
     #school h2, .class-heading h2, #gallery h2 {
         font-size: 28px;
     }
     #school p {
-        padding: 20px  20px 20px 20px;
+        padding: 10px;
         font-size: 18px;
     }
     .class-heading {
@@ -545,8 +538,61 @@ li {
         color: #000000;
     }
     .color .fc {
-        color: white;
+        
         font-size: 18px;
+    }
+
+}
+
+/* screens size from max width 550px wide and down */
+/* homepage */
+@media screen and (max-width: 550px) {
+    
+    #cover-text {
+        font-size: 10px;
+        width: 200px;
+        height: 200px;
+        bottom: 300px;
+        right: 5px; 
+        position: absolute;
+    }
+    .class-p {
+        margin: 0 60px 10px 60px;
+        text-align: justify;
+        font-size: 15px;
+    }
+    #photos {
+        margin: 0 60px 10px 60px;
+    }
+    #school p {
+        margin: 0 40px 0 40px;
+        word-spacing: 1px;
+    }
+    #school h2, .class-heading h2, #gallery h2 {
+        font-size: 20px;
+    }
+    .class-heading h2 {
+        padding: 5px 0 10px 0;
+    }
+    #school p {
+        padding: 10px;
+        font-size: 15px;
+    }
+    .class-heading {
+        padding: 10px 0 10px 0;
+    }
+    .table-content {
+        
+        width: 330px;
+        height: 60px
+    }
+    .table-content th {
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+    .color .fc {
+        color: white;
+        font-size: 15px;
     }
 
 }
