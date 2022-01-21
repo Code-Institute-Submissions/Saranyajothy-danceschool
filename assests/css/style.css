@@ -463,14 +463,24 @@ li {
 /* screens size from max width 650px wide and down */
 /* homepage */
 @media screen and (max-width: 650px) {
+   
     .table-content {
         padding: 10px 20px 10px 20px;
-        background-color: orange ;
         border-radius: 5px;
-        max-height: 50%;
-        width: 70%;
+        font-size: 15px;
         margin: 0 auto;
     }
+    .table-content  th {
+        padding: 10px 10px;
+        border: 1px solid #000000;
+        color: #000000;
+    }
+    .color .fc {
+        color: white;
+        font-size: 20px;
+    }
+
+    
 }
 /* screens size from max width 600px wide and down */
 /* homepage */
