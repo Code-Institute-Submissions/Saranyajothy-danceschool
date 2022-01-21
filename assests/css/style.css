@@ -124,10 +124,10 @@ header {
  
 
 #school h2 {
-  text-align: center;
-  font-size: 40px;
-  color: orange;
-  padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: orange;
+    padding-top: 30px;
 }
 /* classes */
 
@@ -137,11 +137,11 @@ header {
     background-color: orange ;
     border-radius: 5px;
     width: 70%;
-    margin: 20px 250px 0 220px;
-    position: relative;
-    align-self: center;
-   
+    margin: 0 auto;
+    
 }
+
+
 
 
 .class-heading h2 {
@@ -152,7 +152,7 @@ header {
 }
 
 .class-p {
-    margin: 0 250px 20px 250px;
+    margin: 0 240px 20px 240px;
     text-align: justify;
     font-size: 20px;
 }
@@ -386,16 +386,7 @@ li {
         position: absolute;
     }
 
-    .table-content {
-  
-        padding: 20px 30px 20px 30px;
-        background-color: orange ;
-        border-radius: 5px;
-        margin: 20px 250px 0 250px;
-        height: 30px;
-        width: 60%;
-        position: relative;
-    }
+   
 }
 
 /* For larger to medium screens size from 1200px wide and down */
