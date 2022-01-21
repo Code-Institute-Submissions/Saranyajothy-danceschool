@@ -221,13 +221,12 @@ footer {
     
 }
 
-.social-networks 
-li {
+.social-networks li {
     display: inline;
 }
  
 .social-networks i {
-    font-size: 200%;
+    font-size: 150%;
     margin: 1%;
     padding: 5%;
     color: white
@@ -554,7 +553,7 @@ li {
         height: 200px;
         bottom: 300px;
         right: 5px; 
-        position: absolute;
+
     }
     .class-p {
         margin: 0 60px 10px 60px;
@@ -564,10 +563,7 @@ li {
     #photos {
         margin: 0 60px 10px 60px;
     }
-    #school p {
-        margin: 0 40px 0 40px;
-        word-spacing: 1px;
-    }
+    
     #school h2, .class-heading h2, #gallery h2 {
         font-size: 20px;
     }
@@ -577,6 +573,8 @@ li {
     #school p {
         padding: 10px;
         font-size: 15px;
+        margin: 0 40px 0 40px;
+        word-spacing: 1px;
     }
     .class-heading {
         padding: 10px 0 10px 0;
@@ -595,4 +593,45 @@ li {
         font-size: 15px;
     }
 
+}
+/* screens size from max width 430px wide and down */
+/* homepage */
+@media screen and (max-width: 430px) {
+    #logo {
+        margin-left: 2px;
+    }
+    
+    #menu {
+      padding-left: 3px;
+    }
+    #menu li {
+        font-size: 10px;
+        margin-bottom: 3px;
+    }
+    #cover-text {
+        font-size: 10px;
+        width: 180px;
+        height: 180px;
+        bottom: 350px;
+        right: 2px; 
+        letter-spacing: 1px;
+    }
+    .table-content {
+        padding: 5px;
+        width: 250px;
+        height: 30px
+    }
+    .color .fc {
+        color: white;
+        font-size: 13px;
+    }
+    .table-content th {
+    padding: 1px;
+    }
+    #photos {
+        margin: 0 40px 0 40px;
+    }
+    #school p {
+        margin: 0 35px 0 35px;
+    }
 }
