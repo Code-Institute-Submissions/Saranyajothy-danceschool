@@ -120,6 +120,7 @@ header {
     font-size: 20px;
     font-family: 'Playfair Display', serif;
     color: whitesmoke;
+
 }
  
 
@@ -152,7 +153,7 @@ header {
 }
 
 .class-p {
-    margin: 0 240px 20px 240px;
+    margin: 0 200px 20px 200px;
     text-align: justify;
     font-size: 20px;
 }
@@ -385,7 +386,9 @@ li {
         position: absolute;
     }
 
-   
+   #class-p {
+       margin: 0 60px 0 60px;
+   }
 }
 
 /* screens size from max width 950px wide and down */
@@ -403,7 +406,7 @@ li {
     }
 
     .class-p {
-        margin: 0 200px 20px 200px;
+        margin: 0 160px 20px 160px;
         text-align: justify;
         font-size: 20px;
     }
@@ -448,16 +451,26 @@ li {
     .class-p {
         margin: 0 130px 20px 130px;
         text-align: justify;
-        font-size: 20px;
+  
+        font-size: 18px;
     }
     #photos {
         margin: 0 80px 0 80px;
     }
+    #photos :hover {
+        transform: scale(1.1);
+    }
     #school p {
         margin: 0 80px 0 80px;
+        padding: 10px  10px 10px 10px;
+        font-size: 18px;
     }
-    #school h2, .class-heading, #gallery h2 {
+    #school h2, .class-heading h2, #gallery h2 {
         font-size: 30px;
+    }
+    .table-content {
+        width: 550px;
+        height: 200px
     }
 }
 /* screens size from max width 650px wide and down */
@@ -468,6 +481,8 @@ li {
         padding: 10px 20px 10px 20px;
         border-radius: 5px;
         font-size: 15px;
+        width: 500px;
+        height: 200px;
         margin: 0 auto;
     }
     .table-content  th {
@@ -479,12 +494,6 @@ li {
         color: white;
         font-size: 20px;
     }
-
-    
-}
-/* screens size from max width 600px wide and down */
-/* homepage */
-@media screen and (max-width: 600px) {
     #cover-text {
         font-size: 10px;
         width: 200px;
@@ -494,71 +503,50 @@ li {
         position: absolute;
     }
     
-#school p {
-    padding: 10px 20px 10px 20px;
-    margin: 0 50px 0 50px;
-    font-size: 15px;
-}
-#school h2 {
-    font-size: 25px;
-    padding-top: 10px;
-}
-/* classes */
+    #menu {
+        float: left;
+        clear: left;
+        margin-right: 25px;
+    }
+    #logo {
+        margin: 10px 0 0 10px;
+        width: 30px;
+    }
 
-.table-content {
-    padding: 10px 20px 10px 20px;
-    width: 50%;
-    height: 50%;
-}
-.class-heading h2 {
-    font-size: 25px;
-    padding: 10px 0 10px 0;
-}
+    .class-p {
+        margin: 0 100px 10px 100px;
+        text-align: justify;
+        font-size: 18px;
+    }
+    #photos #school p{
+        margin: 0 80px 0 80px;
+    }
+    #school h2, .class-heading h2, #gallery h2 {
+        font-size: 28px;
+    }
+    #school p {
+        padding: 20px  20px 20px 20px;
+        font-size: 18px;
+    }
+    .class-heading {
+        padding: 10px 0 10px 0;
+    }
+    .table-content {
+        padding: 5px 10px 5px 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        margin: 0 auto;
+        width: 450px;
+        height: 200px
+    }
+    .table-content th {
+        padding: 5px 5px;
+        border: 1px solid #000000;
+        color: #000000;
+    }
+    .color .fc {
+        color: white;
+        font-size: 18px;
+    }
 
-.class-p {
-    margin: 0 60px 10px 60px;
-    text-align: justify;
-    font-size: 15px;
-}
-.table-content  th {
-    padding: 10px 10px;
-    border: 1px solid #000000;
-    color: #000000;
-}
-
-.table-content tr {
-    color: #fafafa;
-}
-.color .fc {
-    color: white;
-    font-size: 20px;
-}
-
-/* gallery */
- 
-#gallery {
-    background-image: url('../images/small_border.jpg');
-    background-size: 100%;
-}
-
-
-#gallery h2 {
-    text-align: center;
-    font-size: 40px;
-    color: #fafafa;
-    padding: 30px 0 30px 0;
-}
-
-#photos  {
-    clear: both;
-    column-count: 3;
-    column-gap: 3px;
-    margin: 0 120px 0 120px;
-}
-#photos > img {
-    width: 100%;
-}
-#photos :hover {
-    transform: scale(1.2);
-}
 }
