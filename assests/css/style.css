@@ -390,8 +390,7 @@ li {
 
 /* screens size from max width 950px wide and down */
 /* homepage */
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 950px) {
     #cover-text {
         font-size: 20px;
         font-family: cursive;
@@ -417,5 +416,47 @@ li {
     #school h2, .class-heading, #gallery h2 {
         font-size: 35px;
     }
+}
+/* screens size from max width 800px wide and down */
+/* homepage */
+@media screen and (max-width: 800px)  {
+    #menu li {
+        font-size: 15px;
+        margin: 10px;
+    }
+    #menu {
+        float: left;
+        clear: left;
+        margin-right: 30px;
+    }
+    #logo {
+        margin: 10px 0 0 10px;
+    }
+   
+    #photos {
+        column-count: 1;
+    }
+        #cover-text {
+        font-size: 15px;
+        width: 230px;
+        height: 200px;
+        bottom: 200px;
+        right: 30px; 
+        position: absolute;
+    }
 
+    .class-p {
+        margin: 0 130px 20px 130px;
+        text-align: justify;
+        font-size: 20px;
+    }
+    #photos {
+        margin: 0 80px 0 80px;
+    }
+    #school p {
+        margin: 0 80px 0 80px;
+    }
+    #school h2, .class-heading, #gallery h2 {
+        font-size: 30px;
+    }
 }
