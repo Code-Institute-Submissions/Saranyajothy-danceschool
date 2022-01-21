@@ -136,8 +136,10 @@ header {
     padding: 20px 30px 20px 30px;
     background-color: orange ;
     border-radius: 5px;
-    margin: 20px 200px 0 380px;
+    width: 70%;
+    margin: 20px 250px 0 210px;
     position: relative;
+    align-self: center;
    
 }
 
