@@ -193,7 +193,6 @@ header {
 
 #photos  {
     clear: both;
-    line-height: 60%;
     column-count: 3;
     column-gap: 3px;
     margin: 0 120px 0 120px;
@@ -404,5 +403,19 @@ li {
         position: absolute;
     }
 
-   
+    .class-p {
+        margin: 0 200px 20px 200px;
+        text-align: justify;
+        font-size: 20px;
+    }
+    #photos {
+        margin: 0 100px 0 100px;
+    }
+    #school p {
+        margin: 0 100px 0 100px;
+    }
+    #school h2, .class-heading, #gallery h2 {
+        font-size: 35px;
+    }
+
 }
