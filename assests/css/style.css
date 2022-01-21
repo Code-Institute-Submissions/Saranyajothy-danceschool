@@ -436,11 +436,11 @@ li {
     #photos {
         column-count: 1;
     }
-        #cover-text {
+    #cover-text {
         font-size: 15px;
-        width: 230px;
+        width: 250px;
         height: 200px;
-        bottom: 200px;
+        bottom: 250px;
         right: 30px; 
         position: absolute;
     }
@@ -459,4 +459,96 @@ li {
     #school h2, .class-heading, #gallery h2 {
         font-size: 30px;
     }
+}
+/* screens size from max width 650px wide and down */
+/* homepage */
+@media screen and (max-width: 650px) {
+    .table-content {
+        padding: 10px 20px 10px 20px;
+        background-color: orange ;
+        border-radius: 5px;
+        max-height: 50%;
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+/* screens size from max width 600px wide and down */
+/* homepage */
+@media screen and (max-width: 600px) {
+    #cover-text {
+        font-size: 10px;
+        width: 200px;
+        height: 200px;
+        bottom: 300px;
+        right: 5px; 
+        position: absolute;
+    }
+    
+#school p {
+    padding: 10px 20px 10px 20px;
+    margin: 0 50px 0 50px;
+    font-size: 15px;
+}
+#school h2 {
+    font-size: 25px;
+    padding-top: 10px;
+}
+/* classes */
+
+.table-content {
+    padding: 10px 20px 10px 20px;
+    width: 50%;
+    height: 50%;
+}
+.class-heading h2 {
+    font-size: 25px;
+    padding: 10px 0 10px 0;
+}
+
+.class-p {
+    margin: 0 60px 10px 60px;
+    text-align: justify;
+    font-size: 15px;
+}
+.table-content  th {
+    padding: 10px 10px;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.table-content tr {
+    color: #fafafa;
+}
+.color .fc {
+    color: white;
+    font-size: 20px;
+}
+
+/* gallery */
+ 
+#gallery {
+    background-image: url('../images/small_border.jpg');
+    background-size: 100%;
+}
+
+
+#gallery h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #fafafa;
+    padding: 30px 0 30px 0;
+}
+
+#photos  {
+    clear: both;
+    column-count: 3;
+    column-gap: 3px;
+    margin: 0 120px 0 120px;
+}
+#photos > img {
+    width: 100%;
+}
+#photos :hover {
+    transform: scale(1.2);
+}
 }
