@@ -108,7 +108,7 @@ header {
 /* add background image and content of the school in section */
 
 #school {
-    background-image: url('../images/small\ borgder.jpg');
+    background-image: url('../images/small_border.jpg');
     background-size: 100%;
 }
 
@@ -155,7 +155,7 @@ header {
     font-size: 20px;
 }
 .class-image {
-    background-image: url('../images/small\ borgder.jpg');
+    background-image: url('../images/small_border.jpg');
     background-size: 100%;
     position: relative;
 }
@@ -173,7 +173,7 @@ header {
 /* gallery */
  
 #gallery {
-    background-image: url('../images/small\ borgder.jpg');
+    background-image: url('../images/small_border.jpg');
     background-size: 100%;
 }
 
