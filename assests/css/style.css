@@ -389,5 +389,20 @@ li {
    
 }
 
-/* For larger to medium screens size from 1200px wide and down */
+/* screens size from max width 950px wide and down */
 /* homepage */
+
+@media screen and (max-width: 1200px) {
+    #cover-text {
+        font-size: 20px;
+        font-family: cursive;
+        letter-spacing: 4px;
+        width: 300px;
+        height: 200px;
+        bottom: 200px;
+        right: 40px; 
+        position: absolute;
+    }
+
+   
+}
