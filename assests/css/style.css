@@ -284,8 +284,8 @@ footer {
 
  /* footer color */
 #color {
-    background-color: rgb(18, 41, 37);
-}
+    background-color: rgb(14, 63, 55);
+} 
 
 /* contact page */
 
@@ -356,6 +356,7 @@ footer {
 }
 .enquiry h3 {
     color: orange;
+
  
 }
  
@@ -378,6 +379,11 @@ footer {
    #class-p {
        margin: 0 60px 0 60px;
    }
+   #about-content p {
+        
+    padding: 40px 30px 80px 30px;
+    font-size: 18px;
+    
 }
 
 /* screens size from max width 950px wide and down */
@@ -408,6 +414,19 @@ footer {
     #school h2, .class-heading, #gallery h2 {
         font-size: 35px;
     }
+
+    /* about page */
+    #about-content p {
+        
+        padding: 10px 30px 80px 30px;
+        font-size: 18px;
+    }
+    #about-content h2 {
+        font-size: 30px;
+        padding-top: 20px;
+       
+    
+        
 }
 /* screens size from max width 800px wide and down */
 /* homepage */
@@ -474,9 +493,7 @@ footer {
         width: 200px;
         height: 200px;
         border-radius: 50%;
-        clear: both;
-        float: left;
-        padding: 20px;
+        
        
     }
     
@@ -484,8 +501,6 @@ footer {
         
         padding: 40px 30px 80px 40px;
         font-size: 18px;
-        font-family: 'Playfair Display', serif;
-        text-align: justify;
         
     }   
 }
@@ -660,16 +675,20 @@ footer {
 @media screen and (max-width: 340px) {
     #cover-text {
         font-size: 8px;
-        width: 180px;
-        height: 150px;
-        bottom: 330px;
+        width: 120px;
+        height: 200px;
+        bottom: 280px;
         right: 1%; 
         letter-spacing: 1px;
     }
     .table-content {
         padding: 5px;
         width: 220px;
-        height: 25px
+        height: 25px;
+    }
+    #school h2, .class-heading h2, #gallery h2 {
+        font-size: 12px;
+        text-align: center;
     }
     #school p {
         margin: 0 30px 0 30px;
@@ -681,5 +700,4 @@ footer {
     #menu li {
         margin: 0 5px 0 5px;
     }
-
 }
