@@ -228,17 +228,7 @@ footer {
     color: white
 }
 
-
-
- /* About us */
-
-#about img{
-    width: 100%; 
-}
-
-
-
-#school h2 {
+/* #school h2 {
    padding: 20px 100px 20px 100px;
    color: orange;
 
@@ -247,7 +237,12 @@ footer {
     color: white;
     padding-top: 20px;
     margin-top: 20px;
+} */
+/* About us */
+#about img{
+    width: 100%; 
 }
+
 #about-content {
     background-image: url('../images/HD+BG.jpeg');
     max-height: 100%;
@@ -419,14 +414,11 @@ footer {
     #about-content p {
         
         padding: 10px 30px 80px 30px;
-        font-size: 18px;
+        font-size: 15px;
     }
     #about-content h2 {
         font-size: 30px;
         padding-top: 20px;
-       
-    
-        
 }
 /* screens size from max width 800px wide and down */
 /* homepage */
