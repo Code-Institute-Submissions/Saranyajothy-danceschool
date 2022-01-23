@@ -73,7 +73,7 @@ header {
 }
 #text {
     color: orange;
-    padding: 10px 10px 10px 10px;
+    
 }
 /* creates the level of zooming for the cover text */
 @keyframes cover-zoom {
@@ -166,7 +166,7 @@ header {
 }
 /* footer social links */
 footer {
-    position: relative;
+    position: absolute;
     width: 100%;
     background: orange;
 }
@@ -207,6 +207,14 @@ footer {
     padding-top: 60px;
     color: orange;
 }
+/*#pro-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    clear: both;
+    padding: 40px;
+    left: 30%;
+} */
 #pro-pic img {
     width: 200px;
     height: 200px;
@@ -215,6 +223,7 @@ footer {
     float: left;
     padding: 40px;
 }
+
 #about-content p {
     padding: 70px 60px 120px 40px;
     font-size: 22px;
@@ -229,8 +238,11 @@ footer {
 #contact-image img {
     margin-right: 50%;
     margin-left: 50px;
+    margin-bottom: 50px;
     width: 50%;
     height: 30%;
+    position: relative;
+
 }
 #form {
     bottom: 5px;
@@ -275,15 +287,20 @@ footer {
 .enquiry {
     bottom: 200px;
     right: 90px;
-    width: 16%;
+    width: 25%;
     position: absolute;
-    border: 1px solid orange;
+    border: 2px solid orange;
     border-radius: 5px;
-    padding: 20px 100px 20px 140px;
+    box-sizing: content-box;
+    padding: 10px;
 }
 .enquiry h3 {
     color: orange;
 }
+footer {
+    width: 100%
+}
+
 /* Media queries */
 /* For larger to medium screens size from 1200px wide and down */
 /* homepage */
@@ -305,6 +322,55 @@ footer {
         padding: 40px 30px 80px 30px;
         font-size: 18px;
     }
+
+    /*contact page*/
+
+    #form {
+        bottom: 5px;
+        left: 80px;
+        width: 40%;
+        float: left;
+        height: 30%;
+        bottom: 50%;
+    }
+    .text-input {
+        background: transparent;
+        color: #fafafa;
+        width: 100%;
+        height: 20px;
+        margin: 5px 0 20px 0;
+        border: 1px solid orange;
+        border-radius: 2px;
+    }
+    .join-button{
+        margin-top: 20px;
+        border-radius: 2px;
+        padding: 10px 25px 10px 25px;
+        font-size: 100%;
+        Background-color: orange;
+        
+    }
+    #form h2 {
+        margin: 0 0 10px 0;
+        padding: 10px 5px;
+        font-size: medium;
+    }
+    #message {
+        height: 50px;
+    }
+    .enquiry {
+        bottom: 200px;
+        right: 90px;
+        width: 16%;
+        position: absolute;
+        border: 1px solid orange;
+        border-radius: 5px;
+        padding: 20px 100px 20px 140px;
+    }
+    .enquiry h3 {
+        color: orange;
+    }
+
     }
     /* screens size from max width 950px wide and down */
     /* homepage */
@@ -358,7 +424,6 @@ footer {
     }
     #logo {
         margin: 10px 0 0 10px;
-        width: ;
     }
     #photos {
         column-count: 1;
@@ -487,22 +552,38 @@ footer {
     #about-content h2 {
         font-size: 30px;
         text-align: center;
-        padding-top: 40px;
+        padding-top: 20px;
         color: orange;
     }
     #pro-pic img {
-        width: 120px;
-        height: 120px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
         clear: left;
         float: right;
-        padding: 10px;
+        padding: 20px;
+        position: relative;
+    }
+    #pro-pic {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     #about-content p {
         padding: 20px 30px 30px 30px;
         font-size: 20px;
-    }   
+    } 
 }
+/* screens size from max width 600px wide and down */
+/* homepage */
+@media screen and (max-width: 600px)  {
+    #pro-pic img {
+        
+       
+    }
+
+}
+
 /* screens size from max width 550px wide and down */
 /* homepage */
 @media screen and (max-width: 550px) {
