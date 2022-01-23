@@ -14,12 +14,13 @@ h1 h2 {
 }
  /* header and logo */
 #logo {
-    margin-left: 30px;
+    margin: 15px;
     float: left;
+   
      
 } 
 #logo img {
-    width: 250px;
+    width: 300px;
     height: 100px;
 }
 header {
