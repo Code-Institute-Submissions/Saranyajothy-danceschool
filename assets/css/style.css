@@ -14,7 +14,7 @@ h1 h2 {
 }
  /* header and logo */
 #logo {
-    margin: 15px;
+    margin: 20px;
     float: left;
 } 
 #logo img {
@@ -210,16 +210,17 @@ footer {
 } 
 /* contact page */
 .contact-image {
-    background-image: url('../images/feet.jpeg') cover no-repeat;
-
+    background: url('../images/feet.jpeg') no-repeat center center;
+    display: inline-block;
+    width: 80%;
 }
 #form {
     width: 50%;
-   
     align-items: center;
     justify-content: center;
-    margin: 20px auto;
+    margin: 30px auto;
 }
+
 .text-input {
     background: transparent;
     color: #fafafa;
@@ -229,19 +230,24 @@ footer {
     border: 1px solid orange;
     border-radius: 2px;
 }
-.join-button{
+
+.join-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     font-size: 100%;
     Background-color: orange;
     text-align: center;
+    justify-content: center;
     color: #fafafa;
+    left: 20px
 }
+
 .join-button input:hover {
     Background-color: #fafafa;
     color: orange;
 }
+
 #form h2 {
     background-color: gray; 
     border-radius: 2px;
@@ -252,6 +258,7 @@ footer {
 }
 #message {
     height: 60px;
+    display: inline-block;
 }
 .enquiry {
     margin: 60px auto;
@@ -282,7 +289,7 @@ footer {
         font-size: 22px;
     }
 
-    /*contact page*/
+    /*contact page
     #contact-image img {
         margin-top: 60px;
         width: 60%;
@@ -343,7 +350,7 @@ footer {
     }
     .box {
         padding: 20px 20px;
-    }
+    }*/
     
 /* screens size from max width 950px wide and down */
 /* homepage */
