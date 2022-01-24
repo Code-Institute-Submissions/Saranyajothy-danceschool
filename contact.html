@@ -15,21 +15,81 @@
         <a href="index.html">
             <h1 id="logo">
             <img src="assests/images/logo.png" alt="logo">
-            </h1>
-        </a>
+            </h1></a>
         <!--navigation features-->
         <nav id="menu">
             <ul>
-                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="contact.html" class="active">CONTACT</a></li>
                 <li><a href="about.html">ABOUT US</a></li>
-                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
             </ul>
         </nav>
     </header> 
-    
-    
+    <section id="contact-image">
+       <div id="form">
+                <form method="POST" class="signup-form" action="https://formdump.codeinstitute.net/">
+                    <h2>LET'S GET IN TOUCH WITH ME!  
+                    <hr>
+                    write to us for all queries, emails will be replied ASAP</h2>
+                    <label for="fname" >FIRST NAME</label>
+                    <input type="text" id="fname" name="first_name" class="text-input" required>
+                        
+                    <label for="lname" >LAST NAME</label>
+                    <input type="text" id="lname" name="last_name" class="text-input" required>
+                        
+                    <label for="email" >EMAIL</label>
+                    <input type="email" id="email" name="email_address" class="text-input" required>
+                        
+                    <label for="phone" >PHONE</label>
+                    <input type="text" id="phone" name="phone-number" class="text-input" required>
+                        
+                    <label for="message" >MESSAGE</label>
+                    <input type="text" id="message" name="message" class="text-input" required>
+                        
+                    <input type="submit" class="join-button" value="SEND MESSAGE">
+                </form>
+            </div> 
+        </section>
+        
+        <section>   
+            <div class="enquiry">
+                <h3>
+                    Enquiry 
+                </h3>
+                <br><br>
+                <p> 
+                    Tel: +353 876566504 <br> 
+                    Tel: +353 873407834 <br> 
+                    Note: Private number won't be answered. <br><br>
+                    email: admin@anugraha.ie <br>
+                    anugrahaireland@gmail.com
+                </p>
+            </div>
+        </section>
+    <!--footer contains social links facebook, twitter, youtube, instgram-->
+    <footer>
+        <ul id="footer-color" class="social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                 aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+
+            </li> .
+        </ul>
+    </footer>
         <!--fontawesome-->
     <script src="https://kit.fontawesome.com/deb0a1425e.js" crossorigin="anonymous"></script>
 </body>
 
-</html>   
+</html>
