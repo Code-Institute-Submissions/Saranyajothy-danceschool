@@ -165,7 +165,7 @@ header {
 }
 /* footer social links */
 footer {
-    position: absolute;
+    height: 200px;
     width: 100%;
     background: orange;
 }
@@ -228,22 +228,18 @@ footer {
  /* footer color */
 #color {
     background-color: rgb(14, 63, 55);
+    height: 200px;
 } 
 /* contact page */
-#contact-image img {
-    margin-right: 50%;
-    margin-left: 50px;
-    margin-bottom: 50px;
-    width: 50%;
-    height: auto;
-    position: relative;
+#contact-image img{
+        width: 30%;
+        padding: 30px;
+        margin-top: 60px;
+   
 }
 #form {
-    bottom: 5px;
-    left: 120px;
-    width: 40%;
-    position: absolute;
-    float: left;
+    
+   
 }
 .text-input {
     background: transparent;
@@ -279,23 +275,18 @@ footer {
     height: 60px;
 }
 .enquiry {
-    bottom: 200px;
-    right: 100px;
-    width: 25%;
-    position: absolute;
+    margin: 0 auto;
+    width: 35%;
     border: 2px solid orange;
     border-radius: 5px;
-    box-sizing: content-box;
+    box-sizing: border-box;
     padding: 10px;
 }
 .enquiry h3 {
     color: orange;
+    box-sizing: content-box;
 }
-footer {
-    width: 100%;
-    position: absoloute;
 
-}
 
 /* Media queries */
 /* For larger to medium screens size from 1200px wide and down */
@@ -321,55 +312,7 @@ footer {
 
     /*contact page*/
 
-    #form {
-        bottom: 5px;
-        left: 80px;
-        width: 40%;
-        float: left;
-        height: 30%;
-        bottom: 50%;
-    }
-    .text-input {
-        background: transparent;
-        color: #fafafa;
-        width: 100%;
-        height: 20px;
-        margin: 5px 0 20px 0;
-        border: 1px solid orange;
-        border-radius: 2px;
-    }
-    .join-button{
-        margin-top: 20px;
-        border-radius: 2px;
-        padding: 10px 25px 10px 25px;
-        font-size: 100%;
-        Background-color: orange;
-        
-    }
-    #form h2 {
-        margin: 0 0 10px 0;
-        padding: 10px 5px;
-        font-size: medium;
-    }
-    #form h3 {
-        margin: 0 0 10px 0;
-        padding: 10px 5px;
-        font-size: medium;
-    }
-    #message {
-        height: 50px;
-    }
-    .enquiry {
-        bottom: 200px;
-        right: 100px;
-        width: 25%;
-        position: absolute;
-        border: 2px solid orange;
-        border-radius: 5px;
-        box-sizing: content-box;
-        padding: 10px;
-    }
-}
+ 
 /* screens size from max width 950px wide and down */
 /* homepage */
 @media screen and (max-width: 950px) {
@@ -434,27 +377,17 @@ footer {
             padding: 5px 15px 5px 15px;
             font-size: 100%;
             Background-color: orange;
-            
-        }
-        #form h2 {
-            margin: 0 0 10px 0;
-            padding: 10px 5px;
-            font-size: medium;
         }
         #message {
             height: 50px;
         }
         .enquiry {
             bottom: 300px;
-            right: 100px;
-            width: 20%;
-            position: absolute;
-            border: 2px solid orange;
-            border-radius: 5px;
-            box-sizing: content-box;
-            overflow-wrap: normal;
+            right: 80px;
+            width: 24%;
+            padding: 15px;
         }
-
+    
     }
     /* screens size from max width 800px wide and down */
     /* homepage */
@@ -521,14 +454,29 @@ footer {
         font-size: 18px;
     } 
     /* contact page */
-    #contact-image img {
-        margin-right: 50%;
-     
-       
-        width: 50%;
-        height: 100%;
+
+    }
+    #contact-image {
+        display: block;
+        margin: 0 auto;
+        width: 160%;
         position: relative;
-    }  
+    } 
+    #form {
+        bottom: 5px;
+        left: 80px;
+        width: 40%;
+        position: absolute;
+        height: 5%;
+        bottom: 65%;
+        justify-content: center;
+    } 
+    .enquiry {
+        margin: 0 auto;
+        top: 100%;
+        bottom: 50%
+    }
+
 }
 /* screens size from max width 650px wide and down */
 /* homepage */
