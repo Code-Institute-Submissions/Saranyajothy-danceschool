@@ -212,7 +212,8 @@ footer {
 .contact-image {
     background: url('../images/feet.jpeg') no-repeat center center;
     display: inline-block;
-    width: 80%;
+    background-size: 80%;
+    width: 100%
 }
 #form {
     width: 50%;
@@ -232,7 +233,7 @@ footer {
 }
 
 .join-button {
-    margin-top: 20px;
+    margin: 20px 200px 20px 200px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     font-size: 100%;
@@ -241,11 +242,6 @@ footer {
     justify-content: center;
     color: #fafafa;
     left: 20px
-}
-
-.join-button input:hover {
-    Background-color: #fafafa;
-    color: orange;
 }
 
 #form h2 {
@@ -267,7 +263,7 @@ footer {
     border-radius: 5px;
     box-sizing: border-box;
     padding: 20px;
-    position: absolute;
+    position: relative;
 }
 .enquiry h3 {
     color: orange;
