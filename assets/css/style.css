@@ -19,10 +19,10 @@ h1 h2 {
 } 
 #logo img {
     width: 300px;
-    height: 100px;
+    height: 80px;
 }
 .header {
-    line-height: 40px;
+    line-height: 30px;
 }
  /* navigation link */
  
@@ -141,11 +141,11 @@ h1 h2 {
 #photos :hover {
     transform: scale(1.2);
 }
-/* footer social links */
+/* footer and social links */
 footer {
-    height: 200px;
-    width: 100%;
+    height: 150px;
     background: orange;
+    bottom: 0;
 }
 .social-networks {
     text-align: center;
@@ -153,10 +153,11 @@ footer {
 
 .social-networks li {
     display: inline;
+    
 }
 .social-networks i {
     font-size: 150%;
-    margin: 1%;
+    margin: 1%á;
     padding: 5%;
     color: white
 }
@@ -203,49 +204,53 @@ footer {
     font-family: 'Playfair Display', serif;
     text-align: justify;
 }   
- /* footer color */
-#color {
-    background-color: rgb(14, 63, 55);
-    height: 200px;
-} 
+
 /* contact page */
 .contact-image {
     background: url('../images/feet.jpeg') no-repeat center center;
     display: inline-block;
     background-size: 100%; 
     margin-top: 0;
-    max-height: 150%;
-    max-width: 150%;
+    max-height: 200%;
+    max-width: 200%;
 }
 
 .text-input {
     background: transparent;
     color: #fafafa;
-    margin-left: 200px;
     border: 2px solid orange;
     border-radius: 3px;
-    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
     
 }
 .text-lable {
-    margin-left: 200px;
-    position: relative;
+    font-weight: bold;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 200px; */
+    /* position: relative; */
 }
 
-.join-button {
+.btn {
     border-radius: 2px;
-    padding: 15px 28px 15px 28px;
+    padding: 10px;
     font-size: 100%;
     Background-color: orange;
+    font-size: 20px;
     text-align: center;
+    margin: 0 auto;
     justify-content: center;
     color: #fafafa;
-    margin: 40px 60px;
+    /* margin: 40px 60px; */
     display: flex;
     
 }
 
-.asap {
+.heading {
     background-color: orange; 
     border-radius: 2px;
     text-align: center;
@@ -253,14 +258,13 @@ footer {
     padding: 5px;
     color: white;
     font-size: 20px;
-    margin-left: 200px;
-    margin-top: 20px;
-    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 200px; */
+    
 }
 
-#message {
-    height: 60px;
-}
 /*.enquiry {
    
     margin-bottom: 50px;
@@ -274,8 +278,11 @@ footer {
 .enquiry h3 {
     color: orange;
     font-size: 25px;
-    padding-top: 10px;
+    padding-top: 20px;
 } 
+.enquiry p {
+    font-size: 15px;
+}
 
 
 
@@ -291,7 +298,7 @@ footer {
         padding: 40px 30px 80px 30px;
         font-size: 22px;
     }
-    
+}    
    
 /* screens size from max width 950px wide and down */
 /* homepage */
@@ -324,7 +331,12 @@ footer {
             padding-top: 40px;
             padding-bottom: 20px;
         }
-       
+
+        /* footer page */
+        footer {
+            height: 140px;
+        }
+    }       
     
     /* screens size from max width 800px wide and down */
     /* homepage */
@@ -390,7 +402,7 @@ footer {
         padding: 40px 30px 80px 40px;
         font-size: 18px;
 
-    } 
+    }
 }
 /* screens size from max width 650px wide and down */
 /* homepage */
@@ -530,24 +542,73 @@ footer {
         position: relative;
     }
     #about-content p {
-        padding: 20px 10px 40px 10px;
+        padding: 20px 20px 40px 20px;
         font-size: 18px;
-    } 
-    #about- img {
-        height:  ;
-    } 
+    }
+    footer {
+        line-height: 100%;
+        width: 100%;
+    }
+
+    /* contact page  */
+    .contact-image {
+        background-size: 150%; 
+        margin-top: 0;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
+    .text-input {
+        background: transparent;
+        color: #fafafa;
+        margin-left: 200px;
+        border: 2px solid orange;
+        border-radius: 3px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        /* position: relative; */
+        
+    }
+    .text-lable {
+        font-weight: bold;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        /* margin-left: 200px; */
+        /* position: relative; */
+    }
+
+    
+    .asap {
+        background-color: orange; 
+        border-radius: 2px;
+        text-align: center;
+        width: 60%;
+        padding: 5px;
+        color: white;
+        font-size: 20px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        /* margin-left: 200px; */
+        
+    }
+    
+    
 }
+
 /* screens size from max width 430px wide and down */
 /* homepage */
 @media screen and (max-width: 430px) {
     #logo {
-        margin-left: 2px;
+        margin-left: 5px;
     }
     #menu {
       padding-left: 3px;
     }
     #menu li {
-        font-size: 10px;
+        font-size: 15px;
         margin-bottom: 3px;
     }
     
@@ -578,10 +639,10 @@ footer {
         padding: 2px;
     }
 }
+
 /* screens size from max width 340px wide and down */
 /* homepage */
 @media screen and (max-width: 340px) {
-   
     .table-content {
         padding: 5px;
         width: 220px;
