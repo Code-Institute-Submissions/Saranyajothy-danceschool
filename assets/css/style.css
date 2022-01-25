@@ -134,9 +134,10 @@ h1 h2 {
 }
 /* footer and social links */
 footer {
-    height: 150px;
+    height: 200px;
     background: orange;
-    margin-bottom: 0;
+    width: 100%;
+
 }
 .social-networks {
     text-align: center;
@@ -148,8 +149,8 @@ footer {
 }
 .social-networks i {
     font-size: 150%;
-    margin: 1%á;
-    padding: 5%;
+    margin: 0 auto;
+    padding: 6%;
     color: white
 }
 /* #school h2 {
@@ -197,6 +198,13 @@ footer {
 }   
 
 /* contact page */
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
 .contact-image {
     background: url('../images/feet.jpeg') no-repeat center center;
     display: inline-block;
@@ -257,12 +265,15 @@ footer {
 }
 .enquiry h3 {
     color: orange;
-    font-size: 25px;
+    font-size: 30px;
     padding-top: 20px;
 } 
+.enquiry p {
+    font-size: 25px;
+}
 
-.bottom {
-    bottom: 0;
+footer.bottom {
+    margin-bottom: 0%;
 }
 
 /* Media queries */
@@ -278,7 +289,7 @@ footer {
         font-size: 22px;
     }
     
-   
+}   
 /* screens size from max width 950px wide and down */
 /* homepage */
 @media screen and (max-width: 950px) {
@@ -314,7 +325,8 @@ footer {
         /* footer page */
         footer {
             height: 140px;
-        }       
+        } 
+    }      
     
     /* screens size from max width 800px wide and down */
     /* homepage */
@@ -328,8 +340,8 @@ footer {
         clear: left;
         margin-left: 20px;
     }
-    #logo {
-        margin: 10px 0 0 10px;
+    #logo img {
+        margin: 10px;
     }
     #photos {
         column-count: 1;
@@ -382,6 +394,9 @@ footer {
 
     }
      /* footer page */
+     footer {
+        height: 120px;
+    }       
 }
 /* screens size from max width 650px wide and down */
 /* homepage */
@@ -529,18 +544,15 @@ footer {
         width: 100%;
     }
 
-    /* contact page  */
+    /* contact page */
+
     .contact-image {
-        background-size: 150%; 
-        margin-top: 0;
-        max-height: 100%;
-        max-width: 100%;
+        background-size: 180%; 
     }
     
     .text-input {
         background: transparent;
         color: #fafafa;
-        margin-left: 200px;
         border: 2px solid orange;
         border-radius: 3px;
         margin: 0 auto;
@@ -557,24 +569,26 @@ footer {
         /* margin-left: 200px; */
         /* position: relative; */
     }
-
     
-    .asap {
-        background-color: orange; 
-        border-radius: 2px;
-        text-align: center;
-        width: 60%;
-        padding: 5px;
-        color: white;
-        font-size: 20px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        /* margin-left: 200px; */
+    .btn {
+        padding: 10px;
+        font-size: 15px;
+}
+    
+    .heading {
+        padding: 10px;
+        font-size: 15px;
+        
         
     }
-    
-    
+    .enquiry h3 {
+        color: orange;
+        font-size: 30px;
+        padding-top: 20px;
+    } 
+    .enquiry p {
+        font-size: 25px;
+    }
 }
 
 /* screens size from max width 430px wide and down */
@@ -617,20 +631,31 @@ footer {
         font-size: 15px;
         padding: 2px;
     }
+    footer {
+        height: 80px;
+    }       
 }
 
 /* screens size from max width 340px wide and down */
 /* homepage */
 @media screen and (max-width: 340px) {
+    #logo img {
+        width: 200px;
+        margin-bottom: 10px;
+        height: 60px;
+    }
+    #menu li {
+        font-size: 10px;
+    }
     .table-content {
         padding: 5px;
         width: 220px;
         height: 25px;
     }
     #school h2, .class-heading h2, #gallery h2 {
-        font-size: 12px;
+        font-size: 15px;
         text-align: center;
-    }
+    } 
     #school p {
         margin: 0 30px 0 30px;
     }
@@ -640,4 +665,16 @@ footer {
     #menu li {
         margin: 0 5px 0 5px;
     }
+}
+/* screens size from max width 320px wide and down */
+/* homepage */
+@media screen and (max-width: 320px) {
+    #logo img {
+        width: 200px;
+        height: 60px;
+    }
+    #menu li {
+        font-size: 13px;
+    }
+    
 }
