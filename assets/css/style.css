@@ -3,24 +3,29 @@
     padding: 0%;
     border: none;
 }
+
 body {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     color: rgb(255, 254, 254);
     background-color: #000000;
 } 
+
 h1 h2 {
     font-family: 'Playfair Display', serif;
 }
+
  /* header and logo */
 #logo {
     margin: 20px;
     float: left;
 } 
+
 #logo img {
     width: 300px;
     height: 80px;
 }
+
 .header {
     line-height: 30px;
 }
@@ -31,41 +36,38 @@ h1 h2 {
     letter-spacing: 3px;
     font-family: 'inria serif', regular;
 }
+
 #menu li {
     float: right;
     margin: 60px 30px 0 30px;
     list-style-type: none;
 }
+
 #menu a {
     text-decoration: none;
     color: white;
 }
+
 #menu li a:hover {
     color: black;
     background-color: rgb(153, 207, 83);
 }
+
 #menu .active {
     color: orange;
 }
+
  /* shiva image */
 #shiva  img {
     width: 100%;
 }
  
-/* creates the level of zooming for the cover text */
-@keyframes cover-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.2);
-    }
-}
 /* add background image and content of the school in section */
 #school {
     background-image: url('../images/small_border.jpg');
     background-size: 100%;
 }
+
 #school p {
     text-align: justify;
     padding: 20px;
@@ -75,12 +77,14 @@ h1 h2 {
     font-family: 'Playfair Display', serif;
     color: whitesmoke;
 }
+
 #school h2 {
     text-align: center;
     font-size: 40px;
     color: orange;
     padding: 30px 0 30px 0;
 }
+
 /* classes */
 .table-content {
   
@@ -90,63 +94,76 @@ h1 h2 {
     width: 70%;
     margin: 0 auto;
 }
+
 .class-heading h2 {
     text-align: center;
     color: orange;
     font-size: 40px;
     padding: 30px 0 30px 0;
 }
+
 .class-p {
     margin: 0 200px 20px 200px;
     text-align: justify;
     font-size: 20px;
 }
+
 .class-image {
     background-image: url('../images/small_border.jpg');
     background-size: 100%;
     position: relative;
 }
+
 .table-content  th {
     padding: 12px 12px;
     border: 1px solid #000000;
     color: #000000;
 }
+
 .table-content tr {
     color: #fafafa;
 }
+
 .color .fc {
     color: white;
     font-size: 20px;
 }
+
 /* gallery */
- #gallery {
+#gallery {
     background-image: url('../images/small_border.jpg');
     background-size: 100%;
 }
+
 #gallery h2 {
     text-align: center;
     font-size: 40px;
     color: #fafafa;
     padding: 30px 0 30px 0;
 }
+
 #photos  {
     clear: both;
     column-count: 3;
     column-gap: 3px;
     margin: 0 120px 0 120px;
 }
-#photos > img {
+
+#photos img {
     width: 100%;
 }
+
 #photos :hover {
     transform: scale(1.2);
 }
+
 /* footer and social links */
 footer {
-    height: 150px;
+    line-height: 200%;
     background: orange;
-    bottom: 0;
+
 }
+
 .social-networks {
     text-align: center;
 }
@@ -155,36 +172,30 @@ footer {
     display: inline;
     
 }
+
 .social-networks i {
-    font-size: 150%;
-    margin: 1%á;
+    font-size: 200%;
+    margin: 1%;
     padding: 5%;
     color: white
 }
-/* #school h2 {
-   padding: 20px 100px 20px 100px;
-   color: orange;
 
-}
-#school p {
-    color: white;
-    padding-top: 20px;
-    margin-top: 20px;
-} */
-/* About us */
 #about img{
     width: 100%; 
 }
+
 #about-content {
     background-image: url('../images/HD+BG.jpeg');
     max-height: 100%;
 }
+
 #about-content h2 {
     font-size: 40px;
     text-align: center;
     padding-top: 60px;
     color: orange;
 }
+
 #pro-pic img {
     width: 200px;
     height: 200px;
@@ -192,6 +203,7 @@ footer {
     clear: both;
     padding: 40px;
 }
+
 #pro-pic {
     margin: 0 auto;
     display: flex;
@@ -226,6 +238,7 @@ footer {
     /* position: relative; */
     
 }
+
 .text-lable {
     font-weight: bold;
     background-color: #000000;
@@ -250,7 +263,6 @@ footer {
     color: #fafafa;
     /* margin: 40px 60px; */
     display: flex;
-    
 }
 
 .heading {
@@ -265,28 +277,18 @@ footer {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    /* margin-left: 200px; */
-    
 }
 
-/*.enquiry {
-   
-    margin-bottom: 50px;
-    width: 25%;
-    border: 2px solid orange;
-    border-radius: 5px;
-    box-sizing: border-box;
-    padding: 20px;
-    position: relative;
-}*/
 .enquiry h3 {
     color: orange;
     font-size: 30px;
     padding-top: 20px;
 } 
+
 .enquiry p {
     font-size: 25px;
 }
+
 html, body {
     width: 100%;
     height: 100%;
@@ -308,6 +310,9 @@ html, body {
         padding: 40px 30px 80px 30px;
         font-size: 22px;
     }
+    footer {
+        line-height: 180%;
+    }
 }    
    
 /* screens size from max width 950px wide and down */
@@ -316,54 +321,62 @@ html, body {
     #menu li {
         font-size: 15px;
     }
-       
-        .class-p {
-            margin: 0 160px 20px 160px;
-            text-align: justify;
-            font-size: 20px;
-        }
-        #photos {
-            margin: 0 100px 0 100px;
-        }
-        #school p {
-            margin: 0 100px 0 100px;
-        }
-        #school h2, .class-heading, #gallery h2 {
-            font-size: 35px;
-        }
-        /* about page */
-        #about-content p {
-            padding: 30px;
-            font-size: 20px;
-        }
-        #about-content h2 {
-            font-size: 30px;
-            padding-top: 40px;
-            padding-bottom: 20px;
-        }
 
-        /* footer page */
-        footer {
-            height: 140px;
-        }
-    }       
-    
-    /* screens size from max width 800px wide and down */
-    /* homepage */
-    @media screen and (max-width: 800px)  {
+    .class-p {
+        margin: 0 160px 20px 160px;
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    #photos {
+        margin: 0 100px 0 100px;
+    }
+
+    #school p {
+        margin: 0 100px 0 100px;
+    }
+
+    #school h2, .class-heading, #gallery h2 {
+        font-size: 35px;
+    }
+
+    /* about page */
+    #about-content p {
+        padding: 30px;
+        font-size: 20px;
+    }
+        
+    #about-content h2 {
+        font-size: 30px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    /* footer page */
+    footer {
+      line-height: 160%;
+    }
+}       
+
+/* screens size from max width 800px wide and down */
+/* homepage */
+@media screen and (max-width: 800px)  {
     #menu li {
         font-size: 15px;
         margin: 10px;
-    }
+    } 
+
     #menu {
         float: left;
         clear: left;
         margin-left: 20px;
         padding-bottom: 10px;
     }
+
     #logo {
         margin: 20px 0 10px 10px;
     }
+
     #photos {
         column-count: 1;
     }
@@ -373,34 +386,42 @@ html, body {
         text-align: justify;
         font-size: 18px;
     }
+
     #photos {
         margin: 0 80px 0 80px;
     }
+
     #photos :hover {
         transform: scale(1.1);
     }
+
     #school p {
         margin: 0 80px 0 80px;
         padding: 10px  10px 10px 10px;
         font-size: 18px;
     }
+
     #school h2, .class-heading h2, #gallery h2 {
         font-size: 30px;
     }
+
     .table-content {
         width: 550px;
         height: 200px
     }
+
     /* about page */
     #about-content h2 {
         font-size: 30px;
         padding-top: 40px;
     }
+
     #pro-pic img {
         width: 150px;
         height: 150px;
         padding: 20px;
     }
+
     #pro-pic {
         margin: 0 auto;
         display: flex;
@@ -409,12 +430,17 @@ html, body {
         flex-wrap: wrap;
         flex-direction: column;
     }
+
     #about-content p {
         padding: 40px 30px 80px 40px;
         font-size: 18px;
+    }
 
+    footer {
+        line-height: 140%;
     }
 }
+
 /* screens size from max width 650px wide and down */
 /* homepage */
 @media screen and (max-width: 650px) {
@@ -426,11 +452,13 @@ html, body {
         height: 200px;
         margin: 0 auto;
     }
+
     .table-content  th {
         padding: 10px 10px;
         border: 1px solid #000000;
         color: #000000;
     }
+
     .color .fc {
         color: white;
         font-size: 20px;
@@ -440,28 +468,30 @@ html, body {
         margin: 10px 0 0 10px;
         width: 30px;
     }
-    /*#logo img {
-        width: 180px;
-        height: 80px;
-    } */
+
     .class-p {
         margin: 0 100px 10px 100px;
         text-align: justify;
         font-size: 18px;
     }
+
     #photos #school p {
         margin: 0 50px 0 50px;
     }
+
     #school h2, .class-heading h2, #gallery h2 {
         font-size: 28px;
     }
+
     #school p {
         padding: 10px;
         font-size: 18px;
     }
+
     .class-heading {
         padding: 10px 0 10px 0;
     }
+
     .table-content {
         padding: 5px 10px 5px 10px;
         border-radius: 5px;
@@ -470,21 +500,25 @@ html, body {
         width: 450px;
         height: 200px
     }
+
     .table-content th {
         padding: 5px 5px;
         border: 1px solid #000000;
         color: #000000;
     }
+
     .color .fc {
         
         font-size: 18px;
     }
+
     #about-content h2 {
         font-size: 30px;
         text-align: center;
         padding-top: 20px;
         color: orange;
     }
+
     #pro-pic img {
         width: 150px;
         height: 150px;
@@ -492,14 +526,20 @@ html, body {
         padding: 20px;
         position: relative;
     }
+
     #pro-pic {
         margin: 0 auto;
         display: flex;
         justify-content: center;
     }
+
     #about-content p {
         padding: 20px 30px 30px 30px;
         font-size: 20px;
+    }
+
+    footer {
+        line-height: 120%;
     }
 }
 
@@ -510,41 +550,51 @@ html, body {
     #logo img {
         padding: 10px 0 10px 0;
     }
+
     .class-p {
         margin: 0 60px 10px 60px;
         text-align: justify;
-        font-size: 15px;
+        font-size: 20px;
     }
+
     #photos {
-        margin: 0 60px 10px 60px;
+        margin: 0 60px 0 60px;
     }
+
     #school h2, .class-heading h2, #gallery h2 {
         font-size: 23px;
     }
+
     .class-heading h2 {
         padding: 5px 0 10px 0;
     }
+
     #school p {
         padding: 10px;
-        font-size: 15px;
-        margin: 0 40px 0 40px;
+        font-size: 18px;
+        margin: 0 60px 0 60px;
         word-spacing: 1px;
     }
+
     .class-heading {
         padding: 10px 0 10px 0;
     }
+
     .table-content {
         width: 330px;
         height: 60px
     }
+
     .table-content th {
         padding: 5px 5px;
         font-size: 10px;
     }
+
     .color .fc {
         color: white;
         font-size: 15px;
     }
+
 /* about us */
 
     #pro-pic img {
@@ -554,13 +604,10 @@ html, body {
         padding: 5px;
         position: relative;
     }
+
     #about-content p {
         padding: 20px 20px 40px 20px;
         font-size: 18px;
-    }
-    footer {
-        line-height: 100%;
-        width: 100%;
     }
 
     /* contact page  */
@@ -577,7 +624,9 @@ html, body {
         /* position: relative; */
     }
 
-    
+    footer {
+        line-height: 120%;
+    }
 }
 
 /* screens size from max width 430px wide and down */
@@ -585,48 +634,60 @@ html, body {
 @media screen and (max-width: 430px) {
     #logo {
         margin-left: 10px;
-        
     }
 
-    
     #menu {
       padding-left: 3px;
     }
+
     #menu li {
         font-size: 15px;
         margin-bottom: 3px;
     }
+
     #school h2 {
         font-size: 20px;
     }
+
     #text {
         padding: 5px;
     }
+
     .table-content {
         padding: 5px;
         width: 250px;
         height: 30px
     }
+
     .color .fc {
         color: white;
         font-size: 13px;
     }
+
     .table-content th {
-    padding: 1px;
+        padding: 1px;
     }
+
     #photos {
         margin: 0 40px 0 40px;
     }
+
     #school p {
         margin: 0 35px 0 35px;
     }
+
     /* contact page */
     #about- {
         font-size: 15px;
         padding: 2px;
     }
+
     .contact-image {
         background-size: 180%;
+    }
+
+    footer {
+        height: 100%;
     }
 }
 
@@ -637,35 +698,53 @@ html, body {
         width: 250px;
         
     }
+
     #logo {
         margin-left: 15px;
     }
+
     .table-content {
         padding: 5px;
         width: 220px;
         height: 25px;
     }
+
     #school h2, .class-heading h2, #gallery h2 {
         font-size: 18px;
         text-align: center;
     }
+
     #school p {
         margin: 0 30px 0 30px;
     }
+
     .class-p {
         margin: 0 40px 10px 40px;
     }
+
     #menu li {
         font-size: 13px;
     }
+
      #menu {
          margin-left: 8px;
-     }
+    }
+
+    footer {
+        line-height: 80%;
+    }
+    
 }
 /* screens size from max width 320px wide and down */
 @media screen and (max-width: 320px) {
     .contact-image {
         background-size: 200%;
     }
+    
+    footer {
+        line-height: 40%;
+        padding: 2%;
+    }
+    
 }
 
