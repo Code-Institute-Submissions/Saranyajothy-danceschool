@@ -228,6 +228,9 @@ footer {
 }
 .text-lable {
     font-weight: bold;
+    background-color: #000000;
+    border-radius: 80%;
+    width: 180px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -254,10 +257,11 @@ footer {
     background-color: orange; 
     border-radius: 2px;
     text-align: center;
-    width: 60%;
-    padding: 5px;
+    width: 80%;
+    padding: 15px;
     color: white;
     font-size: 20px;
+    font-weight: bold;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -277,13 +281,19 @@ footer {
 }*/
 .enquiry h3 {
     color: orange;
-    font-size: 25px;
+    font-size: 30px;
     padding-top: 20px;
 } 
 .enquiry p {
     font-size: 25px;
 }
-
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
 
 
 /* Media queries */
