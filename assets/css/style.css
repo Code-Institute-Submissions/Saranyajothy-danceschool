@@ -359,9 +359,10 @@ html, body {
         float: left;
         clear: left;
         margin-left: 20px;
+        padding-bottom: 10px;
     }
     #logo {
-        margin: 10px 0 0 10px;
+        margin: 20px 0 10px 10px;
     }
     #photos {
         column-count: 1;
@@ -506,7 +507,9 @@ html, body {
 /* screens size from max width 550px wide and down */
 /* homepage */
 @media screen and (max-width: 550px) {
-    
+    #logo img {
+        padding: 10px 0 10px 0;
+    }
     .class-p {
         margin: 0 60px 10px 60px;
         text-align: justify;
@@ -516,7 +519,7 @@ html, body {
         margin: 0 60px 10px 60px;
     }
     #school h2, .class-heading h2, #gallery h2 {
-        font-size: 20px;
+        font-size: 23px;
     }
     .class-heading h2 {
         padding: 5px 0 10px 0;
@@ -562,24 +565,9 @@ html, body {
 
     /* contact page  */
     .contact-image {
-        background-size: 150%; 
-        margin-top: 0;
-        max-height: 100%;
-        max-width: 100%;
+        background-size: 150%;
     }
-    
-    .text-input {
-        background: transparent;
-        color: #fafafa;
-        margin-left: 200px;
-        border: 2px solid orange;
-        border-radius: 3px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        /* position: relative; */
-        
-    }
+
     .text-lable {
         font-weight: bold;
         margin: 0 auto;
@@ -590,30 +578,17 @@ html, body {
     }
 
     
-    .asap {
-        background-color: orange; 
-        border-radius: 2px;
-        text-align: center;
-        width: 60%;
-        padding: 5px;
-        color: white;
-        font-size: 20px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        /* margin-left: 200px; */
-        
-    }
-    
-    
 }
 
 /* screens size from max width 430px wide and down */
 /* homepage */
 @media screen and (max-width: 430px) {
     #logo {
-        margin-left: 5px;
+        margin-left: 10px;
+        
     }
+
+    
     #menu {
       padding-left: 3px;
     }
@@ -621,7 +596,9 @@ html, body {
         font-size: 15px;
         margin-bottom: 3px;
     }
-    
+    #school h2 {
+        font-size: 20px;
+    }
     #text {
         padding: 5px;
     }
@@ -648,18 +625,28 @@ html, body {
         font-size: 15px;
         padding: 2px;
     }
+    .contact-image {
+        background-size: 180%;
+    }
 }
 
-/* screens size from max width 340px wide and down */
+/* screens size from max width 360px wide and down */
 /* homepage */
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 360px) {
+    #logo img {
+        width: 250px;
+        
+    }
+    #logo {
+        margin-left: 15px;
+    }
     .table-content {
         padding: 5px;
         width: 220px;
         height: 25px;
     }
     #school h2, .class-heading h2, #gallery h2 {
-        font-size: 12px;
+        font-size: 18px;
         text-align: center;
     }
     #school p {
@@ -669,6 +656,16 @@ html, body {
         margin: 0 40px 10px 40px;
     }
     #menu li {
-        margin: 0 5px 0 5px;
+        font-size: 13px;
+    }
+     #menu {
+         margin-left: 8px;
+     }
+}
+/* screens size from max width 320px wide and down */
+@media screen and (max-width: 320px) {
+    .contact-image {
+        background-size: 200%;
     }
 }
+
