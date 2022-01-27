@@ -53,7 +53,7 @@ The aim of my project is to create a website for my dance school with an intenti
 #### Html
 ![Html](/readme-images/html.png)
 #### Css
-![Css](/readme.images/css-validator.png)
+![Css](/readme-images/css-validator.png)
 ### Light house
 
 ### Responsive testing
