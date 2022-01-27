@@ -50,7 +50,12 @@ The aim of my project is to create a website for my dance school with an intenti
 ### Typography
 # Testing
 ### Code validation
+#### Html
+![Html](/readme-images/html.png)
+#### Css
+![Css](/readme.images/css-validator.png)
 ### Light house
+
 ### Responsive testing
 ### Accessibility testing
 ### Manual testing
