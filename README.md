@@ -37,5 +37,26 @@ The aim of my project is to create a website for my dance school with an intenti
 # User experience
 # Website structure
 ## Features
-###
+### Navigation
+### Home
+### About us
+### Contact
+### Footer
+# Future Features
+# Website Surface
+### Wireframes
+### Design Choices
+### Colour Scheme
+### Typography
+# Testing
+### Code validation
+### Light house
+### Responsive testing
+### Accessibility testing
+### Manual testing
+### Bug fixing
+# Technology Used
+# Deployment
+# Credits
+# Acknowledgement
 
