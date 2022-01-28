@@ -2,13 +2,12 @@
 # Indian classical dance school
 Anugraha  Bharatanatyam school trains children and adults with basic and advanced classes in Bharatanatyam, which is a traditional and popular South Indian dance. The vision of Anugraha Bharatanatyam School is to pass on the heritage to the next generation while keeping the age-old tradition to preserve the culture. We are committed to take classical dance to new generations by welcoming modernisation, fusion and creativity.  Where appropriate, we blend the dance with modern technology to bring the divine art to a global audience and younger generation. Anugraha is one of the finest dance schools in Ireland and dedicatedly providing classes in Cork and Limerick. Over the past eight years the students of Anugraha have performed in various events and stages. 
 
-![responsive](/readme-images/Responsive.png)
+![responsive](/readme-images/Responsive.png
 # Table of contents
 - [Vision](#vision)
 - [User Experience](#user-experience)
     - [The target audience](#target-audience)
     - [User's journey](#user's-journey)
-
 - [Website Structure](#website-structure)
     - [Features](#features)
     - [Logo](#logo)
@@ -56,6 +55,7 @@ A user should go through the site like a purposeful journey and to ensure this,
 - The user will find the information in plain and common language.
 - The user will find necessary information to enroll for dance classes.
 - The user will find options to contact the team and to make an inquiry.
+
 [Back to top](#back-to-top)
 # Website structure
 ## Features
