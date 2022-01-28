@@ -4,7 +4,7 @@ Anugraha  Bharatanatyam school trains children and adults with basic and advance
 
 ![responsive](/readme-images/Responsive.png)
 # Table of contents
-- [Vision](Vision)
+- [Vision](#Vision)
 - [User Experience](User-experience)
     - [The target audience](Target-audience)
     - [User's journey](User's-journey)
@@ -77,19 +77,33 @@ A user should go through the site like a purposeful journey and to ensure this,
 - The navigation is enabled for all screens such as desktop to mobile.
 - The navigation is placed on the top right corner.
 - When the logo is clicked from the contact page, it takes to the home page.
-![]
+
+![header](/readme-images/header.png)
 ## Home
 - The home page is aimed to give all details about the dance school.
 - The home page starts with a picture of Lord Shiva, the dancing God and a quote to give value to the dance form.
 - The home page has three sections, which presents information about the dance school, classes and gallery with colourful pictures to bring an experience for global users.
 
 - To give clear instructions about the classes offered, a table with three columns is illustrated to give precise information about level, duration of dance classes and venue with frequency of classes.
+
+![Dancing-god.png](/readme-images/Dancing-god.png)
+
+![school.png](/readme-images/school.png)
+
+![timings](/readme-images/timings.png
+
+![gallery](/readme-images/gallery.png)
 ## About us
 - A traditional dance school is valued by The Guru. Users should know about Guru’s qualification, skills, experience and various credentials.
 
 - The About us page introduces the teacher with four distinctive pictures of Guru’s dance postures involved to highlight the grace, complexity and flexibility of postures.
 
 - Below the pictures, a detailed profile is presented about the teacher to give a background, qualification and honors, versatile experience in different dance forms, work experience, global stage appearances and the development of dance school in Ireland.
+ 
+![about-pic](readme-images/about-pic.png)
+
+![about](/readme-images/about.png)
+
 
 ## Contact
 - The Contact page has a background picture of an anklet band worn during dance performance.
@@ -97,10 +111,14 @@ A user should go through the site like a purposeful journey and to ensure this,
 - When a user submits a form, it will be acknowledged by message and a Thank you note. There will also be a link to return back to the website.
 - All queries submitted will be emailed to the dance teacher’s email for attention, action and response.
 - Contact phone numbers and emails are provided below the form to give an option for the users to speak or write to the dance teacher.
+
+![contact](/readme-images/contact.png)
 ## Footer
 - The footer is the same on all the three pages.
 - The footer has social media links.
 - To enable better user experience each social media link in the footer opens in a new tab.
+
+![footer](/readme-images/footer.png)
 
 # Future Features
 - A login section could be added to allow students to access dance information.
@@ -121,23 +139,24 @@ A user should go through the site like a purposeful journey and to ensure this,
 ### Design Choices
 #### Colour Scheme
 #### Typography
+There were two fonts used in this website.  font was used for body and header. The Inria serif font was used for the navigation menu.
 # Testing
-### Code validation
-#### Html
+## Code validation
+### Html
 ![Html](/readme-images/html.png)
-#### Css
+### Css
 ![Css](/readme-images/css-validator.png)
-### Light house
-#### Desktop
+## Light house
+### Desktop
 ![lighthouse-d](/readme-images/lighthouse-d.png)
-#### Mobile 
+### Mobile 
 ![lighthouse-m](/readme-images/lighthouse-m.png)
-### Responsive testing
+## Responsive testing
 
-### Accessibility testing
+## Accessibility testing
 ![Ally](/readme-images/ally.png)
-### Manual testing
-### Bug fixing
+## Manual testing
+## Bug fixing
 
 # Technology Used
 # Deployment
