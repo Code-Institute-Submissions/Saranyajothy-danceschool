@@ -77,6 +77,7 @@ A user should go through the site like a purposeful journey and to ensure this,
 - The navigation is enabled for all screens such as desktop to mobile.
 - The navigation is placed on the top right corner.
 - When the logo is clicked from the contact page, it takes to the home page.
+![]
 ## Home
 - The home page is aimed to give all details about the dance school.
 - The home page starts with a picture of Lord Shiva, the dancing God and a quote to give value to the dance form.
@@ -110,13 +111,13 @@ A user should go through the site like a purposeful journey and to ensure this,
 # Website Surface
 ## Wireframes
 ### Desktop
-- [Home](/assests/images/home-d.png)
-- [About](/../main/workspace/danceschool/main/readme-images/about-d.png')
-- [contact](/main/readme-images/contact-d.png)
+- [Home](/readme-images/home-d.png)
+- [About](/readme-images/about-desk.png')
+- [contact](/readme-images/contact-d.png)
 ### Mobile
-- [Home](home)
-- [About](about)
-- [Contact](contact)
+- [Home](/readme-images/home-m.png)
+- [About](/readme-images/about-m.png)
+- [Contact](/readme-images/contact-m.png)
 ### Design Choices
 #### Colour Scheme
 #### Typography
