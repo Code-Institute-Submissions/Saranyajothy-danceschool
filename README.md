@@ -114,6 +114,7 @@ A user should go through the site like a purposeful journey and to ensure this,
 - When a user submits a form, it will be acknowledged by message and a Thank you note. There will also be a link to return back to the website.
 - All queries submitted will be emailed to the dance teacher’s email for attention, action and response.
 - Contact phone numbers and emails are provided below the form to give an option for the users to speak or write to the dance teacher.
+- form submit source is added to email.
 
 
 ![contact](/readme-images/contact.png)
@@ -174,11 +175,11 @@ I manually tested the functions of navigation menu, header, all the three pages,
 
 ## Bug fixing
 
-o   On Gitpod terminal, I couldn’t git commit and push my work. After a few unsuccessful attempts I reached my tutor who kindly helped me to fix conflicts in index.html and style.css by accepting current changes.
+On Gitpod terminal, I couldn’t git commit and push my work. After a few unsuccessful attempts I reached my tutor who kindly helped me to fix conflicts in index.html and style.css by accepting current changes.
 
 ![bug.png](/readme-images/bug.png)
 
-o   On HTML validation I got a prompt that a section is lacking a Heading. I followed the instructions and used h1 elements to fix the issue.
+On HTML validation I got a prompt that a section is lacking a Heading. I followed the instructions and used h1 elements to fix the issue.
 
 ![bug-2.png](/readme-images/bug-2.png)
 
