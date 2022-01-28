@@ -132,7 +132,7 @@ A user should go through the site like a purposeful journey and to ensure this,
 ## Wireframes
 ### Desktop
 - [Home](/readme-images/home-d.png)
-- [About](/readme-images/about-desk.png')
+- [About](/readme-images/about-desk.png)
 - [contact](/readme-images/contact-d.png)
 ### Mobile
 - [Home](/readme-images/home-m.png)
