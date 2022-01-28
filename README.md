@@ -142,9 +142,9 @@ A user should go through the site like a purposeful journey and to ensure this,
 - [Contact](/readme-images/contact-m.png)
 ## Design Choices
 ### Colour Scheme
-![color](/readme-images/colour-scheme.png)
+![color-scheme](/readme-images/colour-scheme.png)
 
-![color c checker](/readme-images/color-c-checker.png)
+![color-c-checker](/readme-images/color-c-checker.png)
 
 ![ccc1](/readme-images/ccc1.png)
 
