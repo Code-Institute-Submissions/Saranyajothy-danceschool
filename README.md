@@ -2,7 +2,8 @@
 # Indian classical dance school
 Anugraha  Bharatanatyam school trains children and adults with basic and advanced classes in Bharatanatyam, which is a traditional and popular South Indian dance. The vision of Anugraha Bharatanatyam School is to pass on the heritage to the next generation while keeping the age-old tradition to preserve the culture. We are committed to take classical dance to new generations by welcoming modernisation, fusion and creativity.  Where appropriate, we blend the dance with modern technology to bring the divine art to a global audience and younger generation. Anugraha is one of the finest dance schools in Ireland and dedicatedly providing classes in Cork and Limerick. Over the past eight years the students of Anugraha have performed in various events and stages. 
 
-![responsive](/readme-images/Responsive.png
+
+![responsive](/readme-images/Responsive.png)
 # Table of contents
 - [Vision](#vision)
 - [User Experience](#user-experience)
@@ -34,7 +35,7 @@ Anugraha  Bharatanatyam school trains children and adults with basic and advance
 - [Deployment](#deployment)
 - [Credits](#credits)
 - [Acknowledgement](#acknowledgement)
-_____
+____
 
 # Vision
 The aim of my project is to create a website for my dance school with an intention to  site for dance lovers and prospective learners of dance. This is for children their parents and mature students who intend to learn or learning Indian classical dance.
@@ -141,7 +142,7 @@ A user should go through the site like a purposeful journey and to ensure this,
 ### Design Choices
 #### Colour Scheme
 #### Typography
-There were two fonts used in this website.  font was used for body and header. The Inria serif font was used for the navigation menu.
+There were two fonts used in this website. [Playfair](https://fonts.google.com/specimen/Playfair+Display) font was used for body and header. [Inria Serif](https://fonts.google.com/specimen/Inria%20Serif)  font was used for the navigation menu.
 # Testing
 ## Code validation
 ### Html
