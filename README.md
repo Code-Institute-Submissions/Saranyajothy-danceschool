@@ -58,7 +58,7 @@ A user should go through the site like a purposeful journey and to ensure this,
 - The user will find necessary information to enroll for dance classes.
 - The user will find options to contact the team and to make an inquiry.
 
-[Back to top](#back-to-top)
+
 # Website structure
 ## Features
 - The site has a header with logo and footer.
@@ -74,13 +74,13 @@ A user should go through the site like a purposeful journey and to ensure this,
 - When an enquiry form is submitted, a confirmation message appears with a Thank you note and a link to return back to the home page.
 ## Logo
 - The logo has a symbol which denotes the power of the feminine.
-- he name of the dance school is on the logo next to the symbol.
+- The name of the dance school is on the logo next to the symbol.
 
 ## Navigation
 - The navigation, header and footer are similar for all the three pages.
 - The navigation is enabled for all screens such as desktop to mobile.
 - The navigation is placed on the top right corner.
-- When the logo is clicked from the contact page, it takes to the home page.
+- When the logo is clicked from the any page, it takes to the home page.
 
 ![header](/readme-images/header.png)
 ## Home
