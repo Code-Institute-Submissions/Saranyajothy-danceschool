@@ -102,6 +102,11 @@ A user should go through the site like a purposeful journey and to ensure this,
 - To enable better user experience each social media link in the footer opens in a new tab.
 
 # Future Features
+- A login section could be added to allow students to access dance information.
+- Dance resources and history could be added in the resources page.
+- The gallery could be made as a separate page and it could contain video performances of students.
+- A secure payment section can be added to allow online fee payment.
+- The syllabus can be added for students for their reference.
 # Website Surface
 ## Wireframes
 ### Desktop
