@@ -113,8 +113,6 @@ A user should go through the site like a purposeful journey and to ensure this,
 - The Contact page has a background picture of an anklet band worn during dance performance.
 - The Contact page has a form where a user can submit their details and write a query.
 - When a user submits a form, it will be acknowledged by message and a Thank you note. There will also be a link to return back to the website.
-- All queries submitted will be emailed to the dance teacher’s email for attention, action and response.
-- Contact phone numbers and emails are provided below the form to give an option for the users to speak or write to the dance teacher.
 - add dumbform for the form submission 
 
 
