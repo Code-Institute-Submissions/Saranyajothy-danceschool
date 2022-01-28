@@ -16,12 +16,13 @@
 - [Future Features](Future-Features)
 - [Website Surface](Website-Surface)
     - [Wireframes](Wireframes)
-    - [Design Choices](Design-Choice)
+    - [Design Choices](Design-Choice) 
     - [Colour Scheme](Colour-Scheme)
     - [Typography](Typography)
 - [Testing](Testing)
     - [Code validation](Code-Validation)
     - [Light house](Light-house)
+    - [Color contrast checker](color-contrast-checker)
     - [Responsive testing](Responsive-testing)
     - [Accessibility testing](Accessibility-testing)
     - [Manual testing](Manual-testing)
@@ -45,9 +46,12 @@ The aim of my project is to create a website for my dance school with an intenti
 # Future Features
 # Website Surface
 ### Wireframes
+- [Home](Home)![Home]
+![About](/../main/readme-images/about-d.png)
+![contact](/../main/readme-images/contact-d.png)
 ### Design Choices
-### Colour Scheme
-### Typography
+#### Colour Scheme
+#### Typography
 # Testing
 ### Code validation
 #### Html
