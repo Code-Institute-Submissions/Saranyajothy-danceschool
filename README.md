@@ -46,9 +46,14 @@ The aim of my project is to create a website for my dance school with an intenti
 # Future Features
 # Website Surface
 ### Wireframes
-- [Home](Home)![Home](/readme-images/home-d.png)
-![About](/../main/readme-images/about-d.png)
-![contact](/../main/readme-images/contact-d.png)
+#### Desktop
+- [Home](/assests/images/home-d.png)
+- [About](workspace/danceschool/main/readme-images/about-d.png')
+- [contact](/main/readme-images/contact-d.png)
+#### Mobile
+- [Home](home)
+- [About](about)
+- [Contact](contact)
 ### Design Choices
 #### Colour Scheme
 #### Typography
@@ -66,6 +71,7 @@ The aim of my project is to create a website for my dance school with an intenti
 ### Responsive testing
 
 ### Accessibility testing
+![Ally](/readme-images/ally.png)
 ### Manual testing
 ### Bug fixing
 # Technology Used
