@@ -1,13 +1,16 @@
 ![logo](/readme-images/dance-logo.png)
 # Indian classical dance school
+Anugraha  Bharatanatyam school trains children and adults with basic and advanced classes in Bharatanatyam, which is a traditional and popular South Indian dance. The vision of Anugraha Bharatanatyam School is to pass on the heritage to the next generation while keeping the age-old tradition to preserve the culture. We are committed to take classical dance to new generations by welcoming modernisation, fusion and creativity.  Where appropriate, we blend the dance with modern technology to bring the divine art to a global audience and younger generation. Anugraha is one of the finest dance schools in Ireland and dedicatedly providing classes in Cork and Limerick. Over the past eight years the students of Anugraha have performed in various events and stages. 
+
 ![responsive](/readme-images/Responsive.png)
 # Table of contents
 - [Vision](Vision)
 - [User Experience](User-experience)
-    - [Target Audience](Target-audience)
-    - [User's Journey](User's-journey)
+    - [The target audience](Target-audience)
+    - [User's journey](User's-journey)
 - [Website Structure](Website-structure)
     - [Features](Features)
+    - [Logo](logo)
     - [Navigation](Navigation)
     - [Home](Home)
     - [About us](About-us)
@@ -36,21 +39,76 @@ _____
 # Vision
 The aim of my project is to create a website for my dance school with an intention to  site for dance lovers and prospective learners of dance. This is for children their parents and mature students who intend to learn or learning Indian classical dance.
 # User experience
+## The target audience
+The target audience are the students, parents or guardians who want to enrol a student into dance classes and engage more time with their children in a creative and expressive art form.
+
+This site will help Culture and heritage organisations, national and local authorities, universities and event management teams to search for Indian traditional dance school for a performance for their events.
+## User's expaerience
+A user should go through the site like a purposeful journey and to ensure this,
+
+- The user needs to quickly know the purpose on the site.
+- The user should be able to spontaneously and easily navigate through the site.
+- The user will know about Bharatanatyam dance school, dance school, dance classes details, venue and frequency of classes.
+- The user will get a lively experience of the dance form by viewing the gallery to enjoy dance pictures of students, dance costumes, postures and expressions. 
+- The user will know about the skills of the dance teacher (Guru), qualifications, profile, experience and credentials.
+- The user will be able to get the required information within a short span of time.
+- The user will find the information in plain and common language.
+- The user will find necessary information to enroll for dance classes.
+- The user will find options to contact the team and to make an inquiry.
 # Website structure
 ## Features
-### Home
-### Navigation
-### About us
-### Contact
-### Footer
+- The site has a header with logo and footer.
+
+- The site has three pages which are easy to navigate.
+
+- Homepage gives information about the dance school, classes, venue and a gallery to view pictures which will enlarge when the cursor is on it.
+
+- The About us page gives detailed information and credentials about the dance teacher.
+
+- Contact page gives various options for users to contact the team.
+
+- When an enquiry form is submitted, a confirmation message appears with a Thank you note and a link to return back to the home page.
+## Logo
+- The logo has a symbol which denotes the power of the feminine.
+- he name of the dance school is on the logo next to the symbol.
+
+## Navigation
+- The navigation, header and footer are similar for all the three pages.
+- The navigation is enabled for all screens such as desktop to mobile.
+- The navigation is placed on the top right corner.
+- When the logo is clicked from the contact page, it takes to the home page.
+## Home
+- The home page is aimed to give all details about the dance school.
+- The home page starts with a picture of Lord Shiva, the dancing God and a quote to give value to the dance form.
+- The home page has three sections, which presents information about the dance school, classes and gallery with colourful pictures to bring an experience for global users.
+
+- To give clear instructions about the classes offered, a table with three columns is illustrated to give precise information about level, duration of dance classes and venue with frequency of classes.
+## About us
+- A traditional dance school is valued by The Guru. Users should know about Guru’s qualification, skills, experience and various credentials.
+
+- The About us page introduces the teacher with four distinctive pictures of Guru’s dance postures involved to highlight the grace, complexity and flexibility of postures.
+
+- Below the pictures, a detailed profile is presented about the teacher to give a background, qualification and honors, versatile experience in different dance forms, work experience, global stage appearances and the development of dance school in Ireland.
+
+## Contact
+- The Contact page has a background picture of an anklet band worn during dance performance.
+- The Contact page has a form where a user can submit their details and write a query.
+- When a user submits a form, it will be acknowledged by message and a Thank you note. There will also be a link to return back to the website.
+- All queries submitted will be emailed to the dance teacher’s email for attention, action and response.
+- Contact phone numbers and emails are provided below the form to give an option for the users to speak or write to the dance teacher.
+## Footer
+- The footer is the same on all the three pages.
+- The footer has social media links.
+- To enable better user experience each social media link in the footer opens in a new tab.
+
 # Future Features
 # Website Surface
-### Wireframes
-#### Desktop
+## Wireframes
+### Desktop
 - [Home](/assests/images/home-d.png)
-- [About](workspace/danceschool/main/readme-images/about-d.png')
+- [About](/../main/workspace/danceschool/main/readme-images/about-d.png')
 - [contact](/main/readme-images/contact-d.png)
-#### Mobile
+### Mobile
 - [Home](home)
 - [About](about)
 - [Contact](contact)
@@ -74,6 +132,7 @@ The aim of my project is to create a website for my dance school with an intenti
 ![Ally](/readme-images/ally.png)
 ### Manual testing
 ### Bug fixing
+
 # Technology Used
 # Deployment
 # Credits
