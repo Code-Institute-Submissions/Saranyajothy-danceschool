@@ -93,7 +93,7 @@ A user should go through the site like a purposeful journey and to ensure this,
 
 ![school.png](/readme-images/school.png)
 
-![timings](/readme-images/timings.png
+![timings](/readme-images/timings.png)
 
 ![gallery](/readme-images/gallery.png)
 ## About us
@@ -114,6 +114,7 @@ A user should go through the site like a purposeful journey and to ensure this,
 - When a user submits a form, it will be acknowledged by message and a Thank you note. There will also be a link to return back to the website.
 - All queries submitted will be emailed to the dance teacher’s email for attention, action and response.
 - Contact phone numbers and emails are provided below the form to give an option for the users to speak or write to the dance teacher.
+
 
 ![contact](/readme-images/contact.png)
 ## Footer
@@ -141,6 +142,7 @@ A user should go through the site like a purposeful journey and to ensure this,
 - [Contact](/readme-images/contact-m.png)
 ### Design Choices
 #### Colour Scheme
+![color](https://coolors.co/palette/050100-a09e9a-fefdfb-fc9a02-0e8b52)
 #### Typography
 There were two fonts used in this website. [Playfair](https://fonts.google.com/specimen/Playfair+Display) font was used for body and header. [Inria Serif](https://fonts.google.com/specimen/Inria%20Serif)  font was used for the navigation menu.
 # Testing
