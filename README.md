@@ -33,12 +33,12 @@
 _____
 
 # Vision
-The aim of my project is to create a website for my dance school with an intention to be resourceful site for dance lovers and prospective learners of dance. This is for children their parents and mature students who intend to learn or learning Indian classical dance.
+The aim of my project is to create a website for my dance school with an intention to  site for dance lovers and prospective learners of dance. This is for children their parents and mature students who intend to learn or learning Indian classical dance.
 # User experience
 # Website structure
 ## Features
-### Navigation
 ### Home
+### Navigation
 ### About us
 ### Contact
 ### Footer
@@ -56,7 +56,7 @@ The aim of my project is to create a website for my dance school with an intenti
 ![Css](/readme-images/css-validator.png)
 ### Light house
 #### Desktop
-![lighthouse-d](/readme-images/lighhouse-d.png)
+![lighthouse-d](/readme-images/lighthouse-d.png)
 #### Mobile 
 ![lighthouse-m](/readme-images/lighthouse-m.png)
 ### Responsive testing
