@@ -184,14 +184,18 @@ On HTML validation I got a prompt that a section is lacking a Heading. I followe
 ![bug-2.png](/readme-images/bug-2.png)
 
 # Technology Used
-HTML5 - designs the structure and content for the website.
-CSS3 - presents the style for the website.
-Canva - a graphic design App was used to design the art border on the home page and to edit the pictures used in the website.
-Wix software was used to design the symbol and the texts in the logo.
-PicResize tool was used to resize and crop the pictures used in this website.
-Balsamiq was used to create wireframes.
-Google fonts were used to select the fonts for the site.
-FontAwesome was used for the icons in the footer.
+- HTML5 - designs the structure and content for the website.
+- CSS3 - presents the style for the website.
+- [canva](https://www.canva.com/) - a graphic design App was used to design the art border on the home page and to edit the pictures used in the website.
+- [wix](www.wix.com) software was used to design the symbol and the texts in the logo.
+
+- [PicResize](https://picresize.com/) tool was used to resize and crop the pictures used in this website.
+
+- [Balsamiq](https://balsamiq.com/) was used to create wireframes.
+
+- [Google-fonts](https://fonts.google.com/) were used to select the fonts for the site.
+
+- [FontAwesome](https://fontawesome.com/kits/deb0a1425e/use?welcome=yes) was used for the icons in the footer.
 Bootstrap was used to style and design the contact page.
 # Deployment
 Deployment of this website was done through GitHub pages using the following methods:
