@@ -43,7 +43,7 @@ The aim of my project is to create a website for my dance school with an intenti
 The target audience are the students, parents or guardians who want to enrol a student into dance classes and engage more time with their children in a creative and expressive art form.
 
 This site will help Culture and heritage organisations, national and local authorities, universities and event management teams to search for Indian traditional dance school for a performance for their events.
-## User's expaerience
+## User's journey
 A user should go through the site like a purposeful journey and to ensure this,
 
 - The user needs to quickly know the purpose on the site.
