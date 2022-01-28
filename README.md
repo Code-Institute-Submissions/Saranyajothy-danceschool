@@ -140,10 +140,15 @@ A user should go through the site like a purposeful journey and to ensure this,
 - [Home](/readme-images/home-m.png)
 - [About](/readme-images/about-m.png)
 - [Contact](/readme-images/contact-m.png)
-### Design Choices
-#### Colour Scheme
+## Design Choices
+### Colour Scheme
 ![color](/readme-images/colour-scheme.png)
-#### Typography
+
+![color c checker](/readme-images/color-c-checker.png)
+
+![ccc1](/readme-images/ccc1.png)
+
+### Typography
 There were two fonts used in this website. [Playfair](https://fonts.google.com/specimen/Playfair+Display) font was used for body and header. [Inria Serif](https://fonts.google.com/specimen/Inria%20Serif)  font was used for the navigation menu.
 # Testing
 ## Code validation
