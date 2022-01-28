@@ -167,7 +167,8 @@ There were two fonts used in this website. [Playfair](https://fonts.google.com/s
 ![Ally](/readme-images/ally.png)
 ## Manual testing
 ## Bug fixing
-
+![bug.png](/readme-images/bug.png)
+![bug-2.png](/readme-images/bug-2.png)
 # Technology Used
 # Deployment
 # Credits
