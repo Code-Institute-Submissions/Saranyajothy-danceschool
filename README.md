@@ -162,15 +162,52 @@ There were two fonts used in this website. [Playfair](https://fonts.google.com/s
 ### Mobile 
 ![lighthouse-m](/readme-images/lighthouse-m.png)
 ## Responsive testing
-
+Responsiveness was checked using Google Chrome Dev Tools, desktop, mobile, tablet and laptop for all screen sizes with optimum resolutions.
 ## Accessibility testing
 ![Ally](/readme-images/ally.png)
 ## Manual testing
+Manual testing was carried out in addition to automated process.
+
+I did a manual test to verify that the website functions well in various browsers like Safari, Google Chrome and Firefox.
+
+I manually tested the functions of navigation menu, header, all the three pages, pictures in the gallery, contact form submission with a response and footer links are working at optimised level.
+
 ## Bug fixing
+
+o   On Gitpod terminal, I couldn’t git commit and push my work. After a few unsuccessful attempts I reached my tutor who kindly helped me to fix conflicts in index.html and style.css by accepting current changes.
+
 ![bug.png](/readme-images/bug.png)
+
+o   On HTML validation I got a prompt that a section is lacking a Heading. I followed the instructions and used h1 elements to fix the issue.
+
 ![bug-2.png](/readme-images/bug-2.png)
+
 # Technology Used
+HTML5 - designs the structure and content for the website.
+CSS3 - presents the style for the website.
+Canva - a graphic design App was used to design the art border on the home page and to edit the pictures used in the website.
+Wix software was used to design the symbol and the texts in the logo.
+PicResize tool was used to resize and crop the pictures used in this website.
+Balsamiq was used to create wireframes.
+Google fonts were used to select the fonts for the site.
+FontAwesome was used for the icons in the footer.
+Bootstrap was used to style and design the contact page.
 # Deployment
+Deployment of this website was done through GitHub pages using the following methods:
+
+- Click on the Settings tab in the GitHub repository.
+- Scroll down to the pages tab.
+- Check for the Source tab and click the Main branch.
+- Click Save.
+- After clicking Save, it can take some time to get a deployed link.
+
 # Credits
+- All images in Gallery and About us page of the website were from our Dance school’s archive and I like to give credits to my students and their parents for giving me the consent to use the pictures for this website.
+
+- I learned a lot online via a few YouTube channels, Code with Ania Kubow, Kevin Powell and Kootkot.
+
+- I like to give credits to the Love Running project by Code Institute and it is a wonderful resource for budding developers.
+ 
 # Acknowledgement
 
+I would like to extend my sincere thanks to my mentor, my tutor, cohort facilitator, our cohort members, the slack community and The Code Institute for all the support I received to design and develop the website in conjunction with Full Stack Software Developer Diploma course (e-commerce) at the Code Institute.
