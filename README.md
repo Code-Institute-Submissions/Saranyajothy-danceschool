@@ -4,6 +4,7 @@ Anugraha  Bharatanatyam school trains children and adults with basic and advance
 
 
 ![responsive](/readme-images/Responsive.png)
+[click here to view the site](https://saranyajothy.github.io/danceschool/)
 # Table of contents
 - [Vision](#vision)
 - [User Experience](#user-experience)
