@@ -112,7 +112,6 @@ A user should go through the site like a purposeful journey and to ensure this,
 ## Contact
 - The Contact page has a background picture of an anklet band worn during dance performance.
 - The Contact page has a form where a user can submit their details and write a query.
-- When a user submits a form, it will be acknowledged by message and a Thank you note. There will also be a link to return back to the website.
 - add dumbform for the form submission 
 
 
